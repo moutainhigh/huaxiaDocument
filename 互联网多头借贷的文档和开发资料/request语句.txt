@@ -1,0 +1,15 @@
+{
+	"RESPONSE":{   
+				"BODY":{ 
+					"RESPONSE_BODY":"[同盾多头借贷] 当前审批系统查询数量已达上限!!!",
+					"RESPONSE_DESC":"处理异常",
+					"RESPONSE_CODE":"999999"
+				},
+				"HEAD":{
+					"TRN_ID":"null",
+					"RESPONSE_CHANNEL":"PLAZE"
+				}
+	}
+}
+
+ 

@@ -1,0 +1,8 @@
+select * from BAIRONG_ALS_D7  ;
+select * from BAIRONG_ALS_D15 ;
+select * from BAIRONG_ALS_M1  ;
+select * from BAIRONG_ALS_M3  ;
+select * from BAIRONG_ALS_M6  ;
+select * from BAIRONG_ALS_M12 ;
+select * from BAIRONG_ALS_FST ;
+select * from BAIRONG_ALS_LST ;

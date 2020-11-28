@@ -1,0 +1,8 @@
+bairong.als.plaze.webservice.url=http://106.128.31.230:8080/huaxia-plaze-server-tiger/webservice/WST001500?wsdl
+bairong.als.plaze.webservice.read_timeout=30000
+bairong.als.plaze.webservice.http_timeout=30000
+bairong.als.task_type=0003
+bairong.als.query_size=10
+bairong.als.thread_sleeptime_mm=5000
+bairong.als.single_sleeptime_mm=200
+bairong.als.multiple_sleeptime_mm=200

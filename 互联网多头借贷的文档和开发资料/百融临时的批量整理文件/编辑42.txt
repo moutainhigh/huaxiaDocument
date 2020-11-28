@@ -1,0 +1,77 @@
+package com.huaxia.opas.service.impl.bairongAls;
+
+import javax.annotation.Resource;
+import org.springframework.stereotype.Service;
+import com.huaxia.plaze.modules.bairongAls.domain.BaiRongAlsBase;
+import com.huaxia.plaze.modules.bairongAls.domain.BaiRongAlsD15;
+import com.huaxia.plaze.modules.bairongAls.domain.BaiRongAlsD7;
+import com.huaxia.plaze.modules.bairongAls.domain.BaiRongAlsFst;
+import com.huaxia.plaze.modules.bairongAls.domain.BaiRongAlsLst;
+import com.huaxia.plaze.modules.bairongAls.domain.BaiRongAlsM1;
+import com.huaxia.plaze.modules.bairongAls.domain.BaiRongAlsM12;
+import com.huaxia.plaze.modules.bairongAls.domain.BaiRongAlsM3;
+import com.huaxia.plaze.modules.bairongAls.domain.BaiRongAlsM6;
+import com.huaxia.plaze.modules.bairongAls.mapper.BaiRongAlsDao;
+import com.huaxia.plaze.modules.bairongAls.service.BaiRongAlsService;
+
+@Service("baiRongAlsService")
+public class BaiRongAlsServiceImpl implements BaiRongAlsService {
+
+	@Resource
+	private BaiRongAlsDao baiRongAlsDao;
+
+	@Override
+	public int saveBaiRongAlsBase(BaiRongAlsBase baiRongAlsBase) {
+		// TODO Auto-generated method stub
+		return baiRongAlsDao.saveBaiRongAlsBase(baiRongAlsBase);
+	}
+
+	@Override
+	public int saveBaiRongAlsD7(BaiRongAlsD7 baiRongAlsD7) {
+		// TODO Auto-generated method stub
+		return baiRongAlsDao.saveBaiRongAlsD7(baiRongAlsD7);
+	}
+
+	@Override
+	public int saveBaiRongAlsD15(BaiRongAlsD15 baiRongAlsD15) {
+		// TODO Auto-generated method stub
+		return baiRongAlsDao.saveBaiRongAlsD15(baiRongAlsD15);
+	}
+
+	@Override
+	public int saveBaiRongAlsM1(BaiRongAlsM1 baiRongAlsM1) {
+		// TODO Auto-generated method stub
+		return baiRongAlsDao.saveBaiRongAlsM1(baiRongAlsM1);
+	}
+
+	@Override
+	public int saveBaiRongAlsM3(BaiRongAlsM3 baiRongAlsM3) {
+		// TODO Auto-generated method stub
+		return baiRongAlsDao.saveBaiRongAlsM3(baiRongAlsM3);
+	}
+
+	@Override
+	public int saveBaiRongAlsM6(BaiRongAlsM6 baiRongAlsM6) {
+		// TODO Auto-generated method stub
+		return baiRongAlsDao.saveBaiRongAlsM6(baiRongAlsM6);
+	}
+
+	@Override
+	public int saveBaiRongAlsM12(BaiRongAlsM12 baiRongAlsM12) {
+		// TODO Auto-generated method stub
+		return baiRongAlsDao.saveBaiRongAlsM12(baiRongAlsM12);
+	}
+
+	@Override
+	public int saveBaiRongAlsFst(BaiRongAlsFst baiRongAlsFst) {
+		// TODO Auto-generated method stub
+		return baiRongAlsDao.saveBaiRongAlsFst(baiRongAlsFst);
+	}
+
+	@Override
+	public int saveBaiRongAlsLst(BaiRongAlsLst baiRongAlsLst) {
+		// TODO Auto-generated method stub
+		return baiRongAlsDao.saveBaiRongAlsLst(baiRongAlsLst);
+	}
+	
+}

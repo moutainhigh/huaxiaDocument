@@ -1,0 +1,45 @@
+function checkVilide(type){
+	if(type == 0){
+		if (($("#TASK00010000_maxCount").val() == '')) {
+			alert("单条查询的设置最大数量不能为空");
+			return null;
+		}
+		if (($('#TASK00010000_startTime').datebox('getValue') == '')) {
+			alert("单条设置数量的开始时间不能为空");
+			return null;
+		}
+		if (($('#TASK00010000_endTime').datebox('getValue') == '')) {
+			alert("单条设置数量的结束时间不能为空");
+			return null;
+		}
+	}
+	if(type == 1){
+		if (($("#TASK00010001_maxCount").val() == '')) {
+			alert("批量查询的设置最大数量不能为空");
+			return null;
+		}
+		if (($('#TASK00010001_startTime').datebox('getValue') == '')) {
+			alert("批量设置数量的开始时间不能为空");
+			return null;
+		}
+		if (($('#TASK00010001_endTime').datebox('getValue') == '')) {
+			alert("批量设置数量的结束时间不能为空");
+			return null;
+		}
+	}
+	if(type == 2){
+		if (($("#TASK00010010_maxCount").val() == '')) {
+			alert("审批查询的设置最大数量不能为空");
+			return null;
+		}
+		if (($('#TASK00010010_startTime').datebox('getValue') == '')) {
+			alert("审批设置数量的开始时间不能为空");
+			return null;
+		}
+		if (($('#TASK00010010_endTime').datebox('getValue') == '')) {
+			alert("审批设置数量的结束时间不能为空");
+			return null;
+		}
+	}
+	return 0;
+} 

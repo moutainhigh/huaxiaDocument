@@ -1,0 +1,14 @@
+		if (bankJSON.containsKey("consnum") && bankJSON.getString("consnum") != null && !"".equals(bankJSON.getString("consnum"))) {
+							baiRongAlsLst.setLstCellBankConsnum(cellJSON.getString("consnum"));
+						}
+						if (bankJSON.containsKey("csinteday") && bankJSON.getString("csinteday") != null && !"".equals(bankJSON.getString("csinteday"))) {
+							baiRongAlsLst.setLstCellBankCsinteday(cellJSON.getString("csinteday"));
+						}
+						
+						
+						if (nbankJSON.containsKey("consnum") && nbankJSON.getString("consnum") != null && !"".equals(nbankJSON.getString("consnum"))) {
+							baiRongAlsLst.setLstCellNbankConsnum(cellJSON.getString("consnum"));
+						}
+						if (nbankJSON.containsKey("csinteday") && nbankJSON.getString("csinteday") != null && !"".equals(nbankJSON.getString("csinteday"))) {
+							baiRongAlsLst.setLstCellNbankCsinteday(cellJSON.getString("csinteday"));
+						}

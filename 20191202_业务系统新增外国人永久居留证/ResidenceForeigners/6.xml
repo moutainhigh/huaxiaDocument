@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="UTF-8"?><RESPONSE errorcode="xxx" code="0" countrows="1">  <ROWS>   <ROW>    <ErrorCode>xxx</ErrorCode><!--错误代码-->    <ErrorMsg>xxxxxxxxx</ErrorMsg><!--错误描述-->   </ROW>  </ROWS> </RESPONSE> 根 

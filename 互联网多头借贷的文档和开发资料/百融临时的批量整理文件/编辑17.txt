@@ -1,0 +1,19 @@
+als_d7_cell_nbank_else_allnum									按手机号查询，近7天在非银机构-其他申请次数              
+als_d7_cell_nbank_orgnum                      按手机号查询，近7天在非银机构申请机构数                 
+als_d7_cell_nbank_p2p_orgnum                  按手机号查询，近7天在非银机构-p2p申请机构数             
+als_d7_cell_nbank_mc_orgnum                   按手机号查询，近7天在非银机构-小贷申请机构数            
+als_d7_cell_nbank_ca_orgnum                   按手机号查询，近7天在非银机构-现金类分期申请机构数      
+als_d7_cell_nbank_cf_orgnum                   按手机号查询，近7天在非银机构-消费类分期申请机构数      
+als_d7_cell_nbank_com_orgnum                  按手机号查询，近7天在非银机构-代偿类分期申请机构数      
+als_d7_cell_nbank_oth_orgnum                  按手机号查询，近7天在非银机构-其他申请机构数            
+als_d7_cell_nbank_nsloan_orgnum               按手机号查询，近7天在非银机构-持牌网络小贷机构申请机构数
+als_d7_cell_nbank_autofin_orgnum              按手机号查询，近7天在非银机构-持牌汽车金融机构申请机构数
+als_d7_cell_nbank_sloan_orgnum                按手机号查询，近7天在非银机构-持牌小贷机构申请机构数    
+als_d7_cell_nbank_cons_orgnum                 按手机号查询，近7天在非银机构-持牌消费金融机构申请机构数
+als_d7_cell_nbank_finlea_orgnum               按手机号查询，近7天在非银机构-持牌融资租赁机构申请机构数
+als_d7_cell_nbank_else_orgnum                 按手机号查询，近7天在非银机构-其他申请机构数            
+als_d7_cell_nbank_week_allnum                 按手机号查询，近7天在非银机构周末申请次数               
+als_d7_cell_nbank_week_orgnum                 按手机号查询，近7天在非银机构周末申请机构数             
+als_d7_cell_nbank_night_allnum                按手机号查询，近7天在非银机构夜间申请次数               
+als_d7_cell_nbank_night_orgnum                按手机号查询，近7天在非银机构夜间申请机构数             
+

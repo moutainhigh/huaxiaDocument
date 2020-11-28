@@ -1,0 +1,269 @@
+if (d7JSON.containsKey("cell") && d7JSON.getString("cell") != null && !"".equals(d7JSON.getString("cell"))) {
+									JSONObject idJSON = JSONObject.fromObject(d7JSON.getString("cell"));
+									if(idJSON != null){
+										if (idJSON.containsKey("pdl") && idJSON.getString("pdl") != null && !"".equals(idJSON.getString("pdl"))) {
+											JSONObject pdlJSON = JSONObject.fromObject(idJSON.getString("pdl"));
+											if(pdlJSON != null){
+												if (pdlJSON.containsKey("allnum") && pdlJSON.getString("allnum") != null && !"".equals(pdlJSON.getString("allnum"))) {
+													baiRongAlsD7.setD7IdPdlAllnum(pdlJSON.getString("allnum"));
+												}
+												if (pdlJSON.containsKey("orgnum") && pdlJSON.getString("orgnum") != null && !"".equals(pdlJSON.getString("orgnum"))) {
+													baiRongAlsD7.setD7IdPdlOrgnum(pdlJSON.getString("orgnum"));
+												}
+											}
+										}
+										if (idJSON.containsKey("caon") && idJSON.getString("caon") != null && !"".equals(idJSON.getString("caon"))) {
+											JSONObject JSON = JSONObject.fromObject(idJSON.getString("caon"));
+											if(JSON != null){
+												if (JSON.containsKey("allnum") && JSON.getString("allnum") != null && !"".equals(JSON.getString("allnum"))) {
+													baiRongAlsD7.setD7IdCaonAllnum(JSON.getString("allnum"));
+												}
+												if (JSON.containsKey("orgnum") && JSON.getString("orgnum") != null && !"".equals(JSON.getString("orgnum"))) {
+													baiRongAlsD7.setD7IdCaonOrgnum(JSON.getString("orgnum"));
+												}
+											}
+										}	
+										if (idJSON.containsKey("rel") && idJSON.getString("rel") != null && !"".equals(idJSON.getString("rel"))) {
+											JSONObject JSON = JSONObject.fromObject(idJSON.getString("rel"));
+											if(JSON != null){
+												if (JSON.containsKey("allnum") && JSON.getString("allnum") != null && !"".equals(JSON.getString("allnum"))) {
+													baiRongAlsD7.setD7IdRelAllnum(JSON.getString("allnum"));
+												}
+												if (JSON.containsKey("orgnum") && JSON.getString("orgnum") != null && !"".equals(JSON.getString("orgnum"))) {
+													baiRongAlsD7.setD7IdRelOrgnum(JSON.getString("orgnum"));
+												}
+											}
+										}	
+										if (idJSON.containsKey("caoff") && idJSON.getString("caoff") != null && !"".equals(idJSON.getString("caoff"))) {
+											JSONObject JSON = JSONObject.fromObject(idJSON.getString("caoff"));
+											if(JSON != null){
+												if (JSON.containsKey("allnum") && JSON.getString("allnum") != null && !"".equals(JSON.getString("allnum"))) {
+													baiRongAlsD7.setD7IdCaoffAllnum(JSON.getString("allnum"));
+												}
+												if (JSON.containsKey("orgnum") && JSON.getString("orgnum") != null && !"".equals(JSON.getString("orgnum"))) {
+													baiRongAlsD7.setD7IdCaoffOrgnum(JSON.getString("orgnum"));
+												}
+											}
+										}
+										if (idJSON.containsKey("cooff") && idJSON.getString("cooff") != null && !"".equals(idJSON.getString("cooff"))) {
+											JSONObject JSON = JSONObject.fromObject(idJSON.getString("cooff"));
+											if(JSON != null){
+												if (JSON.containsKey("allnum") && JSON.getString("allnum") != null && !"".equals(JSON.getString("allnum"))) {
+													baiRongAlsD7.setD7IdCooffAllnum(JSON.getString("allnum"));
+												}
+												if (JSON.containsKey("orgnum") && JSON.getString("orgnum") != null && !"".equals(JSON.getString("orgnum"))) {
+													baiRongAlsD7.setD7IdCooffOrgnum(JSON.getString("orgnum"));
+												}
+											}
+										}
+										if (idJSON.containsKey("af") && idJSON.getString("af") != null && !"".equals(idJSON.getString("af"))) {
+											JSONObject JSON = JSONObject.fromObject(idJSON.getString("af"));
+											if(JSON != null){
+												if (JSON.containsKey("allnum") && JSON.getString("allnum") != null && !"".equals(JSON.getString("allnum"))) {
+													baiRongAlsD7.setD7IdAfAllnum(JSON.getString("allnum"));
+												}
+												if (JSON.containsKey("orgnum") && JSON.getString("orgnum") != null && !"".equals(JSON.getString("orgnum"))) {
+													baiRongAlsD7.setD7IdAfOrgnum(JSON.getString("orgnum"));
+												}
+											}
+										}
+										if (idJSON.containsKey("coon") && idJSON.getString("coon") != null && !"".equals(idJSON.getString("coon"))) {
+											JSONObject JSON = JSONObject.fromObject(idJSON.getString("coon"));
+											if(JSON != null){
+												if (JSON.containsKey("allnum") && JSON.getString("allnum") != null && !"".equals(JSON.getString("allnum"))) {
+													baiRongAlsD7.setD7IdCoonAllnum(JSON.getString("allnum"));
+												}
+												if (JSON.containsKey("orgnum") && JSON.getString("orgnum") != null && !"".equals(JSON.getString("orgnum"))) {
+													baiRongAlsD7.setD7IdCoonOrgnum(JSON.getString("orgnum"));
+												}
+											}
+										}
+										if (idJSON.containsKey("oth") && idJSON.getString("oth") != null && !"".equals(idJSON.getString("oth"))) {
+											JSONObject JSON = JSONObject.fromObject(idJSON.getString("oth"));
+											if(JSON != null){
+												if (JSON.containsKey("allnum") && JSON.getString("allnum") != null && !"".equals(JSON.getString("allnum"))) {
+													baiRongAlsD7.setD7IdOthAllnum(JSON.getString("allnum"));
+												}
+												if (JSON.containsKey("orgnum") && JSON.getString("orgnum") != null && !"".equals(JSON.getString("orgnum"))) {
+													baiRongAlsD7.setD7IdOthOrgnum(JSON.getString("orgnum"));
+												}
+											}
+										}
+										if (idJSON.containsKey("bank") && idJSON.getString("bank") != null && !"".equals(idJSON.getString("bank"))) {
+											JSONObject JSON = JSONObject.fromObject(idJSON.getString("bank"));
+											if(JSON != null){
+												if (JSON.containsKey("selfnum") && JSON.getString("selfnum") != null && !"".equals(JSON.getString("selfnum"))) {
+													baiRongAlsD7.setD7IdBankSelfnum(JSON.getString("selfnum"));
+												}
+												if (JSON.containsKey("allnum") && JSON.getString("allnum") != null && !"".equals(JSON.getString("allnum"))) {
+													baiRongAlsD7.setD7IdBankAllnum(JSON.getString("allnum"));
+												}
+												if (JSON.containsKey("tra_allnum") && JSON.getString("tra_allnum") != null && !"".equals(JSON.getString("tra_allnum"))) {
+													baiRongAlsD7.setD7IdBankTraAllnum(JSON.getString("tra_allnum"));
+												}
+												if (JSON.containsKey("ret_allnum") && JSON.getString("ret_allnum") != null && !"".equals(JSON.getString("ret_allnum"))) {
+													baiRongAlsD7.setD7IdBankRetAllnum(JSON.getString("ret_allnum"));
+												}
+												if (JSON.containsKey("orgnum") && JSON.getString("orgnum") != null && !"".equals(JSON.getString("orgnum"))) {
+													baiRongAlsD7.setD7IdBankOrgnum(JSON.getString("orgnum"));
+												}
+												if (JSON.containsKey("tra_orgnum") && JSON.getString("tra_orgnum") != null && !"".equals(JSON.getString("tra_orgnum"))) {
+													baiRongAlsD7.setD7IdBankTraOrgnum(JSON.getString("tra_orgnum"));
+												}
+												if (JSON.containsKey("ret_orgnum") && JSON.getString("ret_orgnum") != null && !"".equals(JSON.getString("ret_orgnum"))) {
+													baiRongAlsD7.setD7IdBankRetOrgnum(JSON.getString("ret_orgnum"));
+												}
+												if (JSON.containsKey("week_allnum") && JSON.getString("week_allnum") != null && !"".equals(JSON.getString("week_allnum"))) {
+													baiRongAlsD7.setD7IdBankWeekAllnum(JSON.getString("week_allnum"));
+												}
+												if (JSON.containsKey("week_orgnum") && JSON.getString("week_orgnum") != null && !"".equals(JSON.getString("week_orgnum"))) {
+													baiRongAlsD7.setD7IdBankWeekOrgnum(JSON.getString("week_orgnum"));
+												}
+												if (JSON.containsKey("night_allnum") && JSON.getString("night_allnum") != null && !"".equals(JSON.getString("night_allnum"))) {
+													baiRongAlsD7.setD7IdBankNightAllnum(JSON.getString("night_allnum"));
+												}
+												if (JSON.containsKey("night_orgnum") && JSON.getString("night_orgnum") != null && !"".equals(JSON.getString("night_orgnum"))) {
+													baiRongAlsD7.setD7IdBankNightOrgnum(JSON.getString("night_orgnum"));
+												}
+											}
+										}
+										if (idJSON.containsKey("nbank") && idJSON.getString("nbank") != null && !"".equals(idJSON.getString("nbank"))) {
+											JSONObject JSON = JSONObject.fromObject(idJSON.getString("nbank"));
+											if(JSON != null){
+												if (JSON.containsKey("selfnum") && JSON.getString("selfnum") != null && !"".equals(JSON.getString("selfnum"))) {
+													baiRongAlsD7.setD7IdNbankSelfnum(JSON.getString("selfnum"));
+												}
+												if (JSON.containsKey("allnum") && JSON.getString("allnum") != null && !"".equals(JSON.getString("allnum"))) {
+													baiRongAlsD7.setD7IdNbankAllnum(JSON.getString("allnum"));
+												}
+												if (JSON.containsKey("p2p_allnum") && JSON.getString("p2p_allnum") != null && !"".equals(JSON.getString("p2p_allnum"))) {
+													baiRongAlsD7.setD7IdNbankP2pAllnum(JSON.getString("p2p_allnum"));
+												}
+												if (JSON.containsKey("mc_allnum") && JSON.getString("mc_allnum") != null && !"".equals(JSON.getString("mc_allnum"))) {
+													baiRongAlsD7.setD7IdNbankMcAllnum(JSON.getString("mc_allnum"));
+												}
+												if (JSON.containsKey("ca_allnum") && JSON.getString("ca_allnum") != null && !"".equals(JSON.getString("ca_allnum"))) {
+													baiRongAlsD7.setD7IdNbankCaAllnum(JSON.getString("ca_allnum"));
+												}
+												if (JSON.containsKey("cf_allnum") && JSON.getString("cf_allnum") != null && !"".equals(JSON.getString("cf_allnum"))) {
+													baiRongAlsD7.setD7IdNbankCfAllnum(JSON.getString("cf_allnum"));
+												}
+												if (JSON.containsKey("com_allnum") && JSON.getString("com_allnum") != null && !"".equals(JSON.getString("com_allnum"))) {
+													baiRongAlsD7.setD7IdNbankComAllnum(JSON.getString("com_allnum"));
+												}
+												if (JSON.containsKey("oth_allnum") && JSON.getString("oth_allnum") != null && !"".equals(JSON.getString("oth_allnum"))) {
+													baiRongAlsD7.setD7IdNbankOthAllnum(JSON.getString("oth_allnum"));
+												}
+												if (JSON.containsKey("nsloan_allnum") && JSON.getString("nsloan_allnum") != null && !"".equals(JSON.getString("nsloan_allnum"))) {
+													baiRongAlsD7.setD7IdNbankNsloanAllnum(JSON.getString("nsloan_allnum"));
+												}
+												if (JSON.containsKey("autofin_allnum") && JSON.getString("autofin_allnum") != null && !"".equals(JSON.getString("autofin_allnum"))) {
+													baiRongAlsD7.setD7IdNbankAutofinAllnum(JSON.getString("autofin_allnum"));
+												}
+												if (JSON.containsKey("sloan_allnum") && JSON.getString("sloan_allnum") != null && !"".equals(JSON.getString("sloan_allnum"))) {
+													baiRongAlsD7.setD7IdNbankSloanAllnum(JSON.getString("sloan_allnum"));
+												}
+												if (JSON.containsKey("cons_allnum") && JSON.getString("cons_allnum") != null && !"".equals(JSON.getString("cons_allnum"))) {
+													baiRongAlsD7.setD7IdNbankConsAllnum(JSON.getString("cons_allnum"));
+												}
+												if (JSON.containsKey("finlea_allnum") && JSON.getString("finlea_allnum") != null && !"".equals(JSON.getString("finlea_allnum"))) {
+													baiRongAlsD7.setD7IdNbankFinleaAllnum(JSON.getString("finlea_allnum"));
+												}
+												if (JSON.containsKey("else_allnum") && JSON.getString("else_allnum") != null && !"".equals(JSON.getString("else_allnum"))) {
+													baiRongAlsD7.setD7IdNbankElseAllnum(JSON.getString("else_allnum"));
+												}
+												if (JSON.containsKey("allnum") && JSON.getString("allnum") != null && !"".equals(JSON.getString("allnum"))) {
+													baiRongAlsD7.setD7IdNbankAllnum(JSON.getString("allnum"));
+												}
+												if (JSON.containsKey("p2p_allnum") && JSON.getString("p2p_allnum") != null && !"".equals(JSON.getString("p2p_allnum"))) {
+													baiRongAlsD7.setD7IdNbankP2pAllnum(JSON.getString("p2p_allnum"));
+												}
+												if (JSON.containsKey("mc_allnum") && JSON.getString("mc_allnum") != null && !"".equals(JSON.getString("mc_allnum"))) {
+													baiRongAlsD7.setD7IdNbankMcAllnum(JSON.getString("mc_allnum"));
+												}
+												if (JSON.containsKey("ca_allnum") && JSON.getString("ca_allnum") != null && !"".equals(JSON.getString("ca_allnum"))) {
+													baiRongAlsD7.setD7IdNbankCaAllnum(JSON.getString("ca_allnum"));
+												}
+												if (JSON.containsKey("cf_allnum") && JSON.getString("cf_allnum") != null && !"".equals(JSON.getString("cf_allnum"))) {
+													baiRongAlsD7.setD7IdNbankCfAllnum(JSON.getString("cf_allnum"));
+												}
+												if (JSON.containsKey("com_allnum") && JSON.getString("com_allnum") != null && !"".equals(JSON.getString("com_allnum"))) {
+													baiRongAlsD7.setD7IdNbankComAllnum(JSON.getString("com_allnum"));
+												}
+												if (JSON.containsKey("oth_allnum") && JSON.getString("oth_allnum") != null && !"".equals(JSON.getString("oth_allnum"))) {
+													baiRongAlsD7.setD7IdNbankOthAllnum(JSON.getString("oth_allnum"));
+												}
+												if (JSON.containsKey("nsloan_allnum") && JSON.getString("nsloan_allnum") != null && !"".equals(JSON.getString("nsloan_allnum"))) {
+													baiRongAlsD7.setD7IdNbankNsloanAllnum(JSON.getString("nsloan_allnum"));
+												}
+												if (JSON.containsKey("autofin_allnum") && JSON.getString("autofin_allnum") != null && !"".equals(JSON.getString("autofin_allnum"))) {
+													baiRongAlsD7.setD7IdNbankAutofinAllnum(JSON.getString("autofin_allnum"));
+												}
+												if (JSON.containsKey("sloan_allnum") && JSON.getString("sloan_allnum") != null && !"".equals(JSON.getString("sloan_allnum"))) {
+													baiRongAlsD7.setD7IdNbankSloanAllnum(JSON.getString("sloan_allnum"));
+												}
+												if (JSON.containsKey("cons_allnum") && JSON.getString("cons_allnum") != null && !"".equals(JSON.getString("cons_allnum"))) {
+													baiRongAlsD7.setD7IdNbankConsAllnum(JSON.getString("cons_allnum"));
+												}
+												if (JSON.containsKey("finlea_allnum") && JSON.getString("finlea_allnum") != null && !"".equals(JSON.getString("finlea_allnum"))) {
+													baiRongAlsD7.setD7IdNbankFinleaAllnum(JSON.getString("finlea_allnum"));
+												}
+												if (JSON.containsKey("else_allnum") && JSON.getString("else_allnum") != null && !"".equals(JSON.getString("else_allnum"))) {
+													baiRongAlsD7.setD7IdNbankElseAllnum(JSON.getString("else_allnum"));
+												}
+												if (JSON.containsKey("orgnum") && JSON.getString("orgnum") != null && !"".equals(JSON.getString("orgnum"))) {
+													baiRongAlsD7.setD7IdNbankOrgnum(JSON.getString("orgnum"));
+												}
+												if (JSON.containsKey("p2p_orgnum") && JSON.getString("p2p_orgnum") != null && !"".equals(JSON.getString("p2p_orgnum"))) {
+													baiRongAlsD7.setD7IdNbankP2pOrgnum(JSON.getString("p2p_orgnum"));
+												}
+												if (JSON.containsKey("mc_orgnum") && JSON.getString("mc_orgnum") != null && !"".equals(JSON.getString("mc_orgnum"))) {
+													baiRongAlsD7.setD7IdNbankMcOrgnum(JSON.getString("mc_orgnum"));
+												}
+												if (JSON.containsKey("ca_orgnum") && JSON.getString("ca_orgnum") != null && !"".equals(JSON.getString("ca_orgnum"))) {
+													baiRongAlsD7.setD7IdNbankCaOrgnum(JSON.getString("ca_orgnum"));
+												}
+												if (JSON.containsKey("cf_orgnum") && JSON.getString("cf_orgnum") != null && !"".equals(JSON.getString("cf_orgnum"))) {
+													baiRongAlsD7.setD7IdNbankCfOrgnum(JSON.getString("cf_orgnum"));
+												}
+												if (JSON.containsKey("com_orgnum") && JSON.getString("com_orgnum") != null && !"".equals(JSON.getString("com_orgnum"))) {
+													baiRongAlsD7.setD7IdNbankComOrgnum(JSON.getString("com_orgnum"));
+												}
+												if (JSON.containsKey("oth_orgnum") && JSON.getString("oth_orgnum") != null && !"".equals(JSON.getString("oth_orgnum"))) {
+													baiRongAlsD7.setD7IdNbankOthOrgnum(JSON.getString("oth_orgnum"));
+												}
+												if (JSON.containsKey("nsloan_orgnum") && JSON.getString("nsloan_orgnum") != null && !"".equals(JSON.getString("nsloan_orgnum"))) {
+													baiRongAlsD7.setD7IdNbankNsloanOrgnum(JSON.getString("nsloan_orgnum"));
+												}
+												if (JSON.containsKey("autofin_orgnum") && JSON.getString("autofin_orgnum") != null && !"".equals(JSON.getString("autofin_orgnum"))) {
+													baiRongAlsD7.setD7IdNbankAutofinOrgnum(JSON.getString("autofin_orgnum"));
+												}
+												if (JSON.containsKey("sloan_orgnum") && JSON.getString("sloan_orgnum") != null && !"".equals(JSON.getString("sloan_orgnum"))) {
+													baiRongAlsD7.setD7IdNbankSloanOrgnum(JSON.getString("sloan_orgnum"));
+												}
+												if (JSON.containsKey("cons_orgnum") && JSON.getString("cons_orgnum") != null && !"".equals(JSON.getString("cons_orgnum"))) {
+													baiRongAlsD7.setD7IdNbankConsOrgnum(JSON.getString("cons_orgnum"));
+												}
+												if (JSON.containsKey("finlea_orgnum") && JSON.getString("finlea_orgnum") != null && !"".equals(JSON.getString("finlea_orgnum"))) {
+													baiRongAlsD7.setD7IdNbankFinleaOrgnum(JSON.getString("finlea_orgnum"));
+												}
+												if (JSON.containsKey("else_orgnum") && JSON.getString("else_orgnum") != null && !"".equals(JSON.getString("else_orgnum"))) {
+													baiRongAlsD7.setD7IdNbankElseOrgnum(JSON.getString("else_orgnum"));
+												}
+												if (JSON.containsKey("week_allnum") && JSON.getString("week_allnum") != null && !"".equals(JSON.getString("week_allnum"))) {
+													baiRongAlsD7.setD7IdNbankWeekAllnum(JSON.getString("week_allnum"));
+												}
+												if (JSON.containsKey("week_orgnum") && JSON.getString("week_orgnum") != null && !"".equals(JSON.getString("week_orgnum"))) {
+													baiRongAlsD7.setD7IdNbankWeekOrgnum(JSON.getString("week_orgnum"));
+												}
+												
+												if (JSON.containsKey("night_allnum") && JSON.getString("night_allnum") != null && !"".equals(JSON.getString("night_allnum"))) {
+													baiRongAlsD7.setD7IdNbankNightAllnum(JSON.getString("night_allnum"));
+												}
+												if (JSON.containsKey("night_orgnum") && JSON.getString("night_orgnum") != null && !"".equals(JSON.getString("night_orgnum"))) {
+													baiRongAlsD7.setD7IdNbankNightOrgnum(JSON.getString("night_orgnum"));
+												}
+											}
+										}
+									}
+								}

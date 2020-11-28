@@ -1,0 +1,12 @@
+lst_id_bank_inteday        VARCHAR2(10),
+lst_id_bank_consnum        VARCHAR2(10),
+lst_id_bank_csinteday      VARCHAR2(10),
+lst_id_nbank_inteday       VARCHAR2(10),
+lst_id_nbank_consnum       VARCHAR2(10),
+lst_id_nbank_csinteday     VARCHAR2(10),
+lst_cell_bank_inteday      VARCHAR2(10),
+lst_cell_bank_consnum      VARCHAR2(10),
+lst_cell_bank_csinteday    VARCHAR2(10),
+lst_cell_nbank_inteday     VARCHAR2(10),
+lst_cell_nbank_consnum     VARCHAR2(10),
+lst_cell_nbank_csinteday   VARCHAR2(10)

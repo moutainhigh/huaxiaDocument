@@ -1,0 +1,4 @@
+comment on culumn BAIRONG_ALS_FST.fst_id_bank_inteday      is '按身份证号查询，距最早在银行机构申请的间隔天数  ';
+comment on culumn BAIRONG_ALS_FST.fst_id_nbank_inteday     is '按身份证号查询，距最早在非银行机构申请的间隔天数';
+comment on culumn BAIRONG_ALS_FST.fst_cell_bank_inteday    is '按手机号查询，距最早在银行机构申请的间隔天数    ';
+comment on culumn BAIRONG_ALS_FST.fst_cell_nbank_inteday   is '按手机号查询，距最早在非银机构申请的间隔天数    ';

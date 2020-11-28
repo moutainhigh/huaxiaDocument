@@ -1,0 +1,4 @@
+#{fstIdBankInteday       ,jdbcType=VARCHAR},
+#{fstIdNbankInteday      ,jdbcType=VARCHAR},
+#{fstCellBankInteday     ,jdbcType=VARCHAR},
+#{fstCellNbankInteday    ,jdbcType=VARCHAR},

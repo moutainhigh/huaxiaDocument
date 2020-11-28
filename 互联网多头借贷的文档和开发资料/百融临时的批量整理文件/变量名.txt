@@ -1,0 +1,2460 @@
+//按身份证号查询，近7天申请线上小额现金贷的次数
+private String d7IdPdlAllnum                    ;
+
+//按身份证号查询，近7天申请线上小额现金贷的机构数
+private String d7IdPdlOrgnum                    ;
+
+//按身份证号查询，近7天申请线上现金分期的次数
+private String d7IdCaonAllnum                   ;
+
+//按身份证号查询，近7天申请线上现金分期的机构数
+private String d7IdCaonOrgnum                   ;
+
+//按身份证号查询，近7天申请信用卡（类信用卡）的次数
+private String d7IdRelAllnum                    ;
+
+//按身份证号查询，近7天申请信用卡（类信用卡）的机构数
+private String d7IdRelOrgnum                    ;
+
+//按身份证号查询，近7天申请线下现金分期的次数
+private String d7IdCaoffAllnum                  ;
+
+//按身份证号查询，近7天申请线下现金分期的机构数
+private String d7IdCaoffOrgnum                  ;
+
+//按身份证号查询，近7天申请线下消费分期的次数
+private String d7IdCooffAllnum                  ;
+
+//按身份证号查询，近7天申请线下消费分期的机构数
+private String d7IdCooffOrgnum                  ;
+
+//按身份证号查询，近7天申请汽车金融的次数
+private String d7IdAfAllnum                     ;
+
+//按身份证号查询，近7天申请汽车金融的机构数
+private String d7IdAfOrgnum                     ;
+
+//按身份证号查询，近7天申请线上消费分期的次数
+private String d7IdCoonAllnum                   ;
+
+//按身份证号查询，近7天申请线上消费分期的机构数
+private String d7IdCoonOrgnum                   ;
+
+//按身份证号查询，近7天申请其他的次数
+private String d7IdOthAllnum                    ;
+
+//按身份证号查询，近7天申请其他的机构数
+private String d7IdOthOrgnum                    ;
+
+//按身份证号查询，近7天在本机构(本机构为银行)的申请次数
+private String d7IdBankSelfnum                  ;
+
+//按身份证号查询，近7天在银行机构申请次数
+private String d7IdBankAllnum                   ;
+
+//按身份证号查询，近7天在银行机构-传统银行申请次数
+private String d7IdBankTraAllnum                ;
+
+//按身份证号查询，近7天在银行机构-网络零售银行申请次数
+private String d7IdBankRetAllnum                ;
+
+//按身份证号查询，近7天在银行机构申请机构数
+private String d7IdBankOrgnum                   ;
+
+//按身份证号查询，近7天在银行机构-传统银行申请机构数
+private String d7IdBankTraOrgnum                ;
+
+//按身份证号查询，近7天在银行机构-网络零售银行申请机构数
+private String d7IdBankRetOrgnum                ;
+
+//按身份证号查询，近7天在银行机构周末申请次数
+private String d7IdBankWeekAllnum               ;
+
+//按身份证号查询，近7天在银行机构周末申请机构数
+private String d7IdBankWeekOrgnum               ;
+
+//按身份证号查询，近7天在银行机构夜间申请次数
+private String d7IdBankNightAllnum              ;
+
+//按身份证号查询，近7天在银行机构夜间申请机构数
+private String d7IdBankNightOrgnum              ;
+
+//按身份证号查询，近7天在本机构(本机构为非银)申请次数
+private String d7IdNbankSelfnum                 ;
+
+//按身份证号查询，近7天在非银机构申请次数
+private String d7IdNbankAllnum                  ;
+
+//按身份证号查询，近7天在非银机构-p2p机构申请次数
+private String d7IdNbankP2pAllnum               ;
+
+//按身份证号查询，近7天在非银机构-小贷机构申请次数
+private String d7IdNbankMcAllnum                ;
+
+//按身份证号查询，近7天在非银机构-现金类分期机构申请次数
+private String d7IdNbankCaAllnum                ;
+
+//按身份证号查询，近7天在非银机构-消费类分期机构申请次数
+private String d7IdNbankCfAllnum                ;
+
+//按身份证号查询，近7天在非银机构-代偿类分期机构申请次数
+private String d7IdNbankComAllnum               ;
+
+//按身份证号查询，近7天在非银机构-其他申请次数
+private String d7IdNbankOthAllnum               ;
+
+//按身份证号查询，近7天在非银机构-持牌网络小贷机构申请次数
+private String d7IdNbankNsloanAllnum            ;
+
+//按身份证号查询，近7天在非银机构-持牌汽车金融机构申请次数
+private String d7IdNbankAutofinAllnum           ;
+
+//按身份证号查询，近7天在非银机构-持牌小贷机构申请次数
+private String d7IdNbankSloanAllnum             ;
+
+//按身份证号查询，近7天在非银机构-持牌消费金融机构申请次数
+private String d7IdNbankConsAllnum              ;
+
+//按身份证号查询，近7天在非银机构-持牌融资租赁机构申请次数
+private String d7IdNbankFinleaAllnum            ;
+
+//按身份证号查询，近7天在非银机构-其他申请次数
+private String d7IdNbankElseAllnum              ;
+
+//按身份证号查询，近7天在非银机构申请机构数
+private String d7IdNbankOrgnum                  ;
+
+//按身份证号查询，近7天在非银机构-p2p申请机构数
+private String d7IdNbankP2pOrgnum               ;
+
+//按身份证号查询，近7天在非银机构-小贷申请机构数
+private String d7IdNbankMcOrgnum                ;
+
+//按身份证号查询，近7天在非银机构-现金类分期申请机构数
+private String d7IdNbankCaOrgnum                ;
+
+//按身份证号查询，近7天在非银机构-消费类分期申请机构数
+private String d7IdNbankCfOrgnum                ;
+
+//按身份证号查询，近7天在非银机构-代偿类分期申请机构数
+private String d7IdNbankComOrgnum               ;
+
+//按身份证号查询，近7天在非银机构-其他申请机构数
+private String d7IdNbankOthOrgnum               ;
+
+//按身份证号查询，近7天在非银机构-持牌网络小贷机构申请机构数
+private String d7IdNbankNsloanOrgnum            ;
+
+//按身份证号查询，近7天在非银机构-持牌汽车金融机构申请机构数
+private String d7IdNbankAutofinOrgnum           ;
+
+//按身份证号查询，近7天在非银机构-持牌小贷机构申请机构数
+private String d7IdNbankSloanOrgnum             ;
+
+//按身份证号查询，近7天在非银机构-持牌消费金融机构申请机构数
+private String d7IdNbankConsOrgnum              ;
+
+//按身份证号查询，近7天在非银机构-持牌融资租赁机构申请机构数
+private String d7IdNbankFinleaOrgnum            ;
+
+//按身份证号查询，近7天在非银机构-其他申请机构数
+private String d7IdNbankElseOrgnum              ;
+
+//按身份证号查询，近7天在非银机构周末申请次数
+private String d7IdNbankWeekAllnum              ;
+
+//按身份证号查询，近7天在非银机构周末申请机构数
+private String d7IdNbankWeekOrgnum              ;
+
+//按身份证号查询，近7天在非银机构夜间申请次数
+private String d7IdNbankNightAllnum             ;
+
+//按身份证号查询，近7天在非银机构夜间申请机构数
+private String d7IdNbankNightOrgnum             ;
+
+//按手机号查询，近7天申请线上小额现金贷的次数
+private String d7CellPdlAllnum                  ;
+
+//按手机号查询，近7天申请线上小额现金贷的机构数
+private String d7CellPdlOrgnum                  ;
+
+//按手机号查询，近7天申请线上现金分期的次数
+private String d7CellCaonAllnum                 ;
+
+//按手机号查询，近7天申请线上现金分期的机构数
+private String d7CellCaonOrgnum                 ;
+
+//按手机号查询，近7天申请信用卡（类信用卡）的次数
+private String d7CellRelAllnum                  ;
+
+//按手机号查询，近7天申请信用卡（类信用卡）的机构数
+private String d7CellRelOrgnum                  ;
+
+//按手机号查询，近7天申请线下现金分期的次数
+private String d7CellCaoffAllnum                ;
+
+//按手机号查询，近7天申请线下现金分期的机构数
+private String d7CellCaoffOrgnum                ;
+
+//按手机号查询，近7天申请线下消费分期的次数
+private String d7CellCooffAllnum                ;
+
+//按手机号查询，近7天申请线下消费分期的机构数
+private String d7CellCooffOrgnum                ;
+
+//按手机号查询，近7天申请汽车金融的次数
+private String d7CellAfAllnum                   ;
+
+//按手机号查询，近7天申请汽车金融的机构数
+private String d7CellAfOrgnum                   ;
+
+//按手机号查询，近7天申请线上消费分期的次数
+private String d7CellCoonAllnum                 ;
+
+//按手机号查询，近7天申请线上消费分期的机构数
+private String d7CellCoonOrgnum                 ;
+
+//按手机号查询，近7天申请其他的次数
+private String d7CellOthAllnum                  ;
+
+//按手机号查询，近7天申请其他的机构数
+private String d7CellOthOrgnum                  ;
+
+//按手机号查询，近7天在本机构(本机构为银行)的申请次数
+private String d7CellBankSelfnum                ;
+
+//按手机号查询，近7天在银行机构申请次数
+private String d7CellBankAllnum                 ;
+
+//按手机号查询，近7天在银行机构-传统银行申请次数
+private String d7CellBankTraAllnum              ;
+
+//按手机号查询，近7天在银行机构-网络零售银行申请次数
+private String d7CellBankRetAllnum              ;
+
+//按手机号查询，近7天在银行机构申请机构数
+private String d7CellBankOrgnum                 ;
+
+//按手机号查询，近7天在银行机构-传统银行申请机构数
+private String d7CellBankTraOrgnum              ;
+
+//按手机号查询，近7天在银行机构-网络零售银行申请机构数
+private String d7CellBankRetOrgnum              ;
+
+//按手机号查询，近7天在银行机构周末申请次数
+private String d7CellBankWeekAllnum             ;
+
+//按手机号查询，近7天在银行机构周末申请机构数
+private String d7CellBankWeekOrgnum             ;
+
+//按手机号查询，近7天在银行机构夜间申请次数
+private String d7CellBankNightAllnum            ;
+
+//按手机号查询，近7天在银行机构夜间申请机构数
+private String d7CellBankNightOrgnum            ;
+
+//按手机号查询，近7天在本机构(本机构为非银)申请次数
+private String d7CellNbankSelfnum               ;
+
+//按手机号查询，近7天在非银机构申请次数
+private String d7CellNbankAllnum                ;
+
+//按手机号查询，近7天在非银机构-p2p机构申请次数
+private String d7CellNbankP2pAllnum             ;
+
+//按手机号查询，近7天在非银机构-小贷机构申请次数
+private String d7CellNbankMcAllnum              ;
+
+//按手机号查询，近7天在非银机构-现金类分期机构申请次数
+private String d7CellNbankCaAllnum              ;
+
+//按手机号查询，近7天在非银机构-消费类分期机构申请次数
+private String d7CellNbankCfAllnum              ;
+
+//按手机号查询，近7天在非银机构-代偿类分期机构申请次数
+private String d7CellNbankComAllnum             ;
+
+//按手机号查询，近7天在非银机构-其他申请次数
+private String d7CellNbankOthAllnum             ;
+
+//按手机号查询，近7天在非银机构-持牌网络小贷机构申请次数
+private String d7CellNbankNsloanAllnum          ;
+
+//按手机号查询，近7天在非银机构-持牌汽车金融机构申请次数
+private String d7CellNbankAutofinAllnum         ;
+
+//按手机号查询，近7天在非银机构-持牌小贷机构申请次数
+private String d7CellNbankSloanAllnum           ;
+
+//按手机号查询，近7天在非银机构-持牌消费金融机构申请次数
+private String d7CellNbankConsAllnum            ;
+
+//按手机号查询，近7天在非银机构-持牌融资租赁机构申请次数
+private String d7CellNbankFinleaAllnum          ;
+
+//按手机号查询，近7天在非银机构-其他申请次数
+private String d7CellNbankElseAllnum            ;
+
+//按手机号查询，近7天在非银机构申请机构数
+private String d7CellNbankOrgnum                ;
+
+//按手机号查询，近7天在非银机构-p2p申请机构数
+private String d7CellNbankP2pOrgnum             ;
+
+//按手机号查询，近7天在非银机构-小贷申请机构数
+private String d7CellNbankMcOrgnum              ;
+
+//按手机号查询，近7天在非银机构-现金类分期申请机构数
+private String d7CellNbankCaOrgnum              ;
+
+//按手机号查询，近7天在非银机构-消费类分期申请机构数
+private String d7CellNbankCfOrgnum              ;
+
+//按手机号查询，近7天在非银机构-代偿类分期申请机构数
+private String d7CellNbankComOrgnum             ;
+
+//按手机号查询，近7天在非银机构-其他申请机构数
+private String d7CellNbankOthOrgnum             ;
+
+//按手机号查询，近7天在非银机构-持牌网络小贷机构申请机构数
+private String d7CellNbankNsloanOrgnum          ;
+
+//按手机号查询，近7天在非银机构-持牌汽车金融机构申请机构数
+private String d7CellNbankAutofinOrgnum         ;
+
+//按手机号查询，近7天在非银机构-持牌小贷机构申请机构数
+private String d7CellNbankSloanOrgnum           ;
+
+//按手机号查询，近7天在非银机构-持牌消费金融机构申请机构数
+private String d7CellNbankConsOrgnum            ;
+
+//按手机号查询，近7天在非银机构-持牌融资租赁机构申请机构数
+private String d7CellNbankFinleaOrgnum          ;
+
+//按手机号查询，近7天在非银机构-其他申请机构数
+private String d7CellNbankElseOrgnum            ;
+
+//按手机号查询，近7天在非银机构周末申请次数
+private String d7CellNbankWeekAllnum            ;
+
+//按手机号查询，近7天在非银机构周末申请机构数
+private String d7CellNbankWeekOrgnum            ;
+
+//按手机号查询，近7天在非银机构夜间申请次数
+private String d7CellNbankNightAllnum           ;
+
+//按手机号查询，近7天在非银机构夜间申请机构数
+private String d7CellNbankNightOrgnum           ;
+
+//按身份证号查询，近15天申请线上小额现金贷的次数
+private String d15IdPdlAllnum                   ;
+
+//按身份证号查询，近15天申请线上小额现金贷的机构数
+private String d15IdPdlOrgnum                   ;
+
+//按身份证号查询，近15天申请线上现金分期的次数
+private String d15IdCaonAllnum                  ;
+
+//按身份证号查询，近15天申请线上现金分期的机构数
+private String d15IdCaonOrgnum                  ;
+
+//按身份证号查询，近15天申请信用卡（类信用卡）的次数
+private String d15IdRelAllnum                   ;
+
+//按身份证号查询，近15天申请信用卡（类信用卡）的机构数
+private String d15IdRelOrgnum                   ;
+
+//按身份证号查询，近15天申请线下现金分期的次数
+private String d15IdCaoffAllnum                 ;
+
+//按身份证号查询，近15天申请线下现金分期的机构数
+private String d15IdCaoffOrgnum                 ;
+
+//按身份证号查询，近15天申请线下消费分期的次数
+private String d15IdCooffAllnum                 ;
+
+//按身份证号查询，近15天申请线下消费分期的机构数
+private String d15IdCooffOrgnum                 ;
+
+//按身份证号查询，近15天申请汽车金融的次数
+private String d15IdAfAllnum                    ;
+
+//按身份证号查询，近15天申请汽车金融的机构数
+private String d15IdAfOrgnum                    ;
+
+//按身份证号查询，近15天申请线上消费分期的次数
+private String d15IdCoonAllnum                  ;
+
+//按身份证号查询，近15天申请线上消费分期的机构数
+private String d15IdCoonOrgnum                  ;
+
+//按身份证号查询，近15天申请其他的次数
+private String d15IdOthAllnum                   ;
+
+//按身份证号查询，近15天申请其他的机构数
+private String d15IdOthOrgnum                   ;
+
+//按身份证号查询，近15天在本机构(本机构为银行)的申请次数
+private String d15IdBankSelfnum                 ;
+
+//按身份证号查询，近15天在银行机构申请次数
+private String d15IdBankAllnum                  ;
+
+//按身份证号查询，近15天在银行机构-传统银行申请次数
+private String d15IdBankTraAllnum               ;
+
+//按身份证号查询，近15天在银行机构-网络零售银行申请次数
+private String d15IdBankRetAllnum               ;
+
+//按身份证号查询，近15天在银行机构申请机构数
+private String d15IdBankOrgnum                  ;
+
+//按身份证号查询，近15天在银行机构-传统银行申请机构数
+private String d15IdBankTraOrgnum               ;
+
+//按身份证号查询，近15天在银行机构-网络零售银行申请机构数
+private String d15IdBankRetOrgnum               ;
+
+//按身份证号查询，近15天在银行机构周末申请次数
+private String d15IdBankWeekAllnum              ;
+
+//按身份证号查询，近15天在银行机构周末申请机构数
+private String d15IdBankWeekOrgnum              ;
+
+//按身份证号查询，近15天在银行机构夜间申请次数
+private String d15IdBankNightAllnum             ;
+
+//按身份证号查询，近15天在银行机构夜间申请机构数
+private String d15IdBankNightOrgnum             ;
+
+//按身份证号查询，近15天在本机构(本机构为非银)申请次数
+private String d15IdNbankSelfnum                ;
+
+//按身份证号查询，近15天在非银机构申请次数
+private String d15IdNbankAllnum                 ;
+
+//按身份证号查询，近15天在非银机构-p2p机构申请次数
+private String d15IdNbankP2pAllnum              ;
+
+//按身份证号查询，近15天在非银机构-小贷机构申请次数
+private String d15IdNbankMcAllnum               ;
+
+//按身份证号查询，近15天在非银机构-现金类分期机构申请次数
+private String d15IdNbankCaAllnum               ;
+
+//按身份证号查询，近15天在非银机构-消费类分期机构申请次数
+private String d15IdNbankCfAllnum               ;
+
+//按身份证号查询，近15天在非银机构-代偿类分期机构申请次数
+private String d15IdNbankComAllnum              ;
+
+//按身份证号查询，近15天在非银机构-其他申请次数
+private String d15IdNbankOthAllnum              ;
+
+//按身份证号查询，近15天在非银机构-持牌网络小贷机构申请次数
+private String d15IdNbankNsloanAllnum           ;
+
+//按身份证号查询，近15天在非银机构-持牌汽车金融机构申请次数
+private String d15IdNbankAutofinAllnum          ;
+
+//按身份证号查询，近15天在非银机构-持牌小贷机构申请次数
+private String d15IdNbankSloanAllnum            ;
+
+//按身份证号查询，近15天在非银机构-持牌消费金融机构申请次数
+private String d15IdNbankConsAllnum             ;
+
+//按身份证号查询，近15天在非银机构-持牌融资租赁机构申请次数
+private String d15IdNbankFinleaAllnum           ;
+
+//按身份证号查询，近15天在非银机构-其他申请次数
+private String d15IdNbankElseAllnum             ;
+
+//按身份证号查询，近15天在非银机构申请机构数
+private String d15IdNbankOrgnum                 ;
+
+//按身份证号查询，近15天在非银机构-p2p申请机构数
+private String d15IdNbankP2pOrgnum              ;
+
+//按身份证号查询，近15天在非银机构-小贷申请机构数
+private String d15IdNbankMcOrgnum               ;
+
+//按身份证号查询，近15天在非银机构-现金类分期申请机构数
+private String d15IdNbankCaOrgnum               ;
+
+//按身份证号查询，近15天在非银机构-消费类分期申请机构数
+private String d15IdNbankCfOrgnum               ;
+
+//按身份证号查询，近15天在非银机构-代偿类分期申请机构数
+private String d15IdNbankComOrgnum              ;
+
+//按身份证号查询，近15天在非银机构-其他申请机构数
+private String d15IdNbankOthOrgnum              ;
+
+//按身份证号查询，近15天在非银机构-持牌网络小贷机构申请机构数
+private String d15IdNbankNsloanOrgnum           ;
+
+//按身份证号查询，近15天在非银机构-持牌汽车金融机构申请机构数
+private String d15IdNbankAutofinOrgnum          ;
+
+//按身份证号查询，近15天在非银机构-持牌小贷机构申请机构数
+private String d15IdNbankSloanOrgnum            ;
+
+//按身份证号查询，近15天在非银机构-持牌消费金融机构申请机构数
+private String d15IdNbankConsOrgnum             ;
+
+//按身份证号查询，近15天在非银机构-持牌融资租赁机构申请机构数
+private String d15IdNbankFinleaOrgnum           ;
+
+//按身份证号查询，近15天在非银机构-其他申请机构数
+private String d15IdNbankElseOrgnum             ;
+
+//按身份证号查询，近15天在非银机构周末申请次数
+private String d15IdNbankWeekAllnum             ;
+
+//按身份证号查询，近15天在非银机构周末申请机构数
+private String d15IdNbankWeekOrgnum             ;
+
+//按身份证号查询，近15天在非银机构夜间申请次数
+private String d15IdNbankNightAllnum            ;
+
+//按身份证号查询，近15天在非银机构夜间申请机构数
+private String d15IdNbankNightOrgnum            ;
+
+//按手机号查询，近15天申请线上小额现金贷的次数
+private String d15CellPdlAllnum                 ;
+
+//按手机号查询，近15天申请线上小额现金贷的机构数
+private String d15CellPdlOrgnum                 ;
+
+//按手机号查询，近15天申请线上现金分期的次数
+private String d15CellCaonAllnum                ;
+
+//按手机号查询，近15天申请线上现金分期的机构数
+private String d15CellCaonOrgnum                ;
+
+//按手机号查询，近15天申请信用卡（类信用卡）的次数
+private String d15CellRelAllnum                 ;
+
+//按手机号查询，近15天申请信用卡（类信用卡）的机构数
+private String d15CellRelOrgnum                 ;
+
+//按手机号查询，近15天申请线下现金分期的次数
+private String d15CellCaoffAllnum               ;
+
+//按手机号查询，近15天申请线下现金分期的机构数
+private String d15CellCaoffOrgnum               ;
+
+//按手机号查询，近15天申请线下消费分期的次数
+private String d15CellCooffAllnum               ;
+
+//按手机号查询，近15天申请线下消费分期的机构数
+private String d15CellCooffOrgnum               ;
+
+//按手机号查询，近15天申请汽车金融的次数
+private String d15CellAfAllnum                  ;
+
+//按手机号查询，近15天申请汽车金融的机构数
+private String d15CellAfOrgnum                  ;
+
+//按手机号查询，近15天申请线上消费分期的次数
+private String d15CellCoonAllnum                ;
+
+//按手机号查询，近15天申请线上消费分期的机构数
+private String d15CellCoonOrgnum                ;
+
+//按手机号查询，近15天申请其他的次数
+private String d15CellOthAllnum                 ;
+
+//按手机号查询，近15天申请其他的机构数
+private String d15CellOthOrgnum                 ;
+
+//按手机号查询，近15天在本机构(本机构为银行)的申请次数
+private String d15CellBankSelfnum               ;
+
+//按手机号查询，近15天在银行机构申请次数
+private String d15CellBankAllnum                ;
+
+//按手机号查询，近15天在银行机构-传统银行申请次数
+private String d15CellBankTraAllnum             ;
+
+//按手机号查询，近15天在银行机构-网络零售银行申请次数
+private String d15CellBankRetAllnum             ;
+
+//按手机号查询，近15天在银行机构申请机构数
+private String d15CellBankOrgnum                ;
+
+//按手机号查询，近15天在银行机构-传统银行申请机构数
+private String d15CellBankTraOrgnum             ;
+
+//按手机号查询，近15天在银行机构-网络零售银行申请机构数
+private String d15CellBankRetOrgnum             ;
+
+//按手机号查询，近15天在银行机构周末申请次数
+private String d15CellBankWeekAllnum            ;
+
+//按手机号查询，近15天在银行机构周末申请机构数
+private String d15CellBankWeekOrgnum            ;
+
+//按手机号查询，近15天在银行机构夜间申请次数
+private String d15CellBankNightAllnum           ;
+
+//按手机号查询，近15天在银行机构夜间申请机构数
+private String d15CellBankNightOrgnum           ;
+
+//按手机号查询，近15天在本机构(本机构为非银)申请次数
+private String d15CellNbankSelfnum              ;
+
+//按手机号查询，近15天在非银机构申请次数
+private String d15CellNbankAllnum               ;
+
+//按手机号查询，近15天在非银机构-p2p机构申请次数
+private String d15CellNbankP2pAllnum            ;
+
+//按手机号查询，近15天在非银机构-小贷机构申请次数
+private String d15CellNbankMcAllnum             ;
+
+//按手机号查询，近15天在非银机构-现金类分期机构申请次数
+private String d15CellNbankCaAllnum             ;
+
+//按手机号查询，近15天在非银机构-消费类分期机构申请次数
+private String d15CellNbankCfAllnum             ;
+
+//按手机号查询，近15天在非银机构-代偿类分期机构申请次数
+private String d15CellNbankComAllnum            ;
+
+//按手机号查询，近15天在非银机构-其他申请次数
+private String d15CellNbankOthAllnum            ;
+
+//按手机号查询，近15天在非银机构-持牌网络小贷机构申请次数
+private String d15CellNbankNsloanAllnum         ;
+
+//按手机号查询，近15天在非银机构-持牌汽车金融机构申请次数
+private String d15CellNbankAutofinAllnum        ;
+
+//按手机号查询，近15天在非银机构-持牌小贷机构申请次数
+private String d15CellNbankSloanAllnum          ;
+
+//按手机号查询，近15天在非银机构-持牌消费金融机构申请次数
+private String d15CellNbankConsAllnum           ;
+
+//按手机号查询，近15天在非银机构-持牌融资租赁机构申请次数
+private String d15CellNbankFinleaAllnum         ;
+
+//按手机号查询，近15天在非银机构-其他申请次数
+private String d15CellNbankElseAllnum           ;
+
+//按手机号查询，近15天在非银机构申请机构数
+private String d15CellNbankOrgnum               ;
+
+//按手机号查询，近15天在非银机构-p2p申请机构数
+private String d15CellNbankP2pOrgnum            ;
+
+//按手机号查询，近15天在非银机构-小贷申请机构数
+private String d15CellNbankMcOrgnum             ;
+
+//按手机号查询，近15天在非银机构-现金类分期申请机构数
+private String d15CellNbankCaOrgnum             ;
+
+//按手机号查询，近15天在非银机构-消费类分期申请机构数
+private String d15CellNbankCfOrgnum             ;
+
+//按手机号查询，近15天在非银机构-代偿类分期申请机构数
+private String d15CellNbankComOrgnum            ;
+
+//按手机号查询，近15天在非银机构-其他申请机构数
+private String d15CellNbankOthOrgnum            ;
+
+//按手机号查询，近15天在非银机构-持牌网络小贷机构申请机构数
+private String d15CellNbankNsloanOrgnum         ;
+
+//按手机号查询，近15天在非银机构-持牌汽车金融机构申请机构数
+private String d15CellNbankAutofinOrgnum        ;
+
+//按手机号查询，近15天在非银机构-持牌小贷机构申请机构数
+private String d15CellNbankSloanOrgnum          ;
+
+//按手机号查询，近15天在非银机构-持牌消费金融机构申请机构数
+private String d15CellNbankConsOrgnum           ;
+
+//按手机号查询，近15天在非银机构-持牌融资租赁机构申请机构数
+private String d15CellNbankFinleaOrgnum         ;
+
+//按手机号查询，近15天在非银机构-其他申请机构数
+private String d15CellNbankElseOrgnum           ;
+
+//按手机号查询，近15天在非银机构周末申请次数
+private String d15CellNbankWeekAllnum           ;
+
+//按手机号查询，近15天在非银机构周末申请机构数
+private String d15CellNbankWeekOrgnum           ;
+
+//按手机号查询，近15天在非银机构夜间申请次数
+private String d15CellNbankNightAllnum          ;
+
+//按手机号查询，近15天在非银机构夜间申请机构数
+private String d15CellNbankNightOrgnum          ;
+
+//按身份证号查询，近1个月申请线上小额现金贷的次数
+private String m1IdPdlAllnum                    ;
+
+//按身份证号查询，近1个月申请线上小额现金贷的机构数
+private String m1IdPdlOrgnum                    ;
+
+//按身份证号查询，近1个月申请线上现金分期的次数
+private String m1IdCaonAllnum                   ;
+
+//按身份证号查询，近1个月申请线上现金分期的机构数
+private String m1IdCaonOrgnum                   ;
+
+//按身份证号查询，近1个月申请信用卡（类信用卡）的次数
+private String m1IdRelAllnum                    ;
+
+//按身份证号查询，近1个月申请信用卡（类信用卡）的机构数
+private String m1IdRelOrgnum                    ;
+
+//按身份证号查询，近1个月申请线下现金分期的次数
+private String m1IdCaoffAllnum                  ;
+
+//按身份证号查询，近1个月申请线下现金分期的机构数
+private String m1IdCaoffOrgnum                  ;
+
+//按身份证号查询，近1个月申请线下消费分期的次数
+private String m1IdCooffAllnum                  ;
+
+//按身份证号查询，近1个月申请线下消费分期的机构数
+private String m1IdCooffOrgnum                  ;
+
+//按身份证号查询，近1个月申请汽车金融的次数
+private String m1IdAfAllnum                     ;
+
+//按身份证号查询，近1个月申请汽车金融的机构数
+private String m1IdAfOrgnum                     ;
+
+//按身份证号查询，近1个月申请线上消费分期的次数
+private String m1IdCoonAllnum                   ;
+
+//按身份证号查询，近1个月申请线上消费分期的机构数
+private String m1IdCoonOrgnum                   ;
+
+//按身份证号查询，近1个月申请其他的次数
+private String m1IdOthAllnum                    ;
+
+//按身份证号查询，近1个月申请其他的机构数
+private String m1IdOthOrgnum                    ;
+
+//按身份证号查询，近1个月在本机构(本机构为银行)的申请次数
+private String m1IdBankSelfnum                  ;
+
+//按身份证号查询，近1个月在银行机构申请次数
+private String m1IdBankAllnum                   ;
+
+//按身份证号查询，近1个月在银行机构-传统银行申请次数
+private String m1IdBankTraAllnum                ;
+
+//按身份证号查询，近1个月在银行机构-网络零售银行申请次数
+private String m1IdBankRetAllnum                ;
+
+//按身份证号查询，近1个月在银行机构申请机构数
+private String m1IdBankOrgnum                   ;
+
+//按身份证号查询，近1个月在银行机构-传统银行申请机构数
+private String m1IdBankTraOrgnum                ;
+
+//按身份证号查询，近1个月在银行机构-网络零售银行申请机构数
+private String m1IdBankRetOrgnum                ;
+
+//按身份证号查询，近1个月在银行机构周末申请次数
+private String m1IdBankWeekAllnum               ;
+
+//按身份证号查询，近1个月在银行机构周末申请机构数
+private String m1IdBankWeekOrgnum               ;
+
+//按身份证号查询，近1个月在银行机构夜间申请次数
+private String m1IdBankNightAllnum              ;
+
+//按身份证号查询，近1个月在银行机构夜间申请机构数
+private String m1IdBankNightOrgnum              ;
+
+//按身份证号查询，近1个月在本机构(本机构为非银)申请次数
+private String m1IdNbankSelfnum                 ;
+
+//按身份证号查询，近1个月在非银机构申请次数
+private String m1IdNbankAllnum                  ;
+
+//按身份证号查询，近1个月在非银机构-p2p机构申请次数
+private String m1IdNbankP2pAllnum               ;
+
+//按身份证号查询，近1个月在非银机构-小贷机构申请次数
+private String m1IdNbankMcAllnum                ;
+
+//按身份证号查询，近1个月在非银机构-现金类分期机构申请次数
+private String m1IdNbankCaAllnum                ;
+
+//按身份证号查询，近1个月在非银机构-消费类分期机构申请次数
+private String m1IdNbankCfAllnum                ;
+
+//按身份证号查询，近1个月在非银机构-代偿类分期机构申请次数
+private String m1IdNbankComAllnum               ;
+
+//按身份证号查询，近1个月在非银机构-其他申请次数
+private String m1IdNbankOthAllnum               ;
+
+//按身份证号查询，近1个月在非银机构-持牌网络小贷机构申请次数
+private String m1IdNbankNsloanAllnum            ;
+
+//按身份证号查询，近1个月在非银机构-持牌汽车金融机构申请次数
+private String m1IdNbankAutofinAllnum           ;
+
+//按身份证号查询，近1个月在非银机构-持牌小贷机构申请次数
+private String m1IdNbankSloanAllnum             ;
+
+//按身份证号查询，近1个月在非银机构-持牌消费金融机构申请次数
+private String m1IdNbankConsAllnum              ;
+
+//按身份证号查询，近1个月在非银机构-持牌融资租赁机构申请次数
+private String m1IdNbankFinleaAllnum            ;
+
+//按身份证号查询，近1个月在非银机构-其他申请次数
+private String m1IdNbankElseAllnum              ;
+
+//按身份证号查询，近1个月在非银机构申请机构数
+private String m1IdNbankOrgnum                  ;
+
+//按身份证号查询，近1个月在非银机构-p2p申请机构数
+private String m1IdNbankP2pOrgnum               ;
+
+//按身份证号查询，近1个月在非银机构-小贷申请机构数
+private String m1IdNbankMcOrgnum                ;
+
+//按身份证号查询，近1个月在非银机构-现金类分期申请机构数
+private String m1IdNbankCaOrgnum                ;
+
+//按身份证号查询，近1个月在非银机构-消费类分期申请机构数
+private String m1IdNbankCfOrgnum                ;
+
+//按身份证号查询，近1个月在非银机构-代偿类分期申请机构数
+private String m1IdNbankComOrgnum               ;
+
+//按身份证号查询，近1个月在非银机构-其他申请机构数
+private String m1IdNbankOthOrgnum               ;
+
+//按身份证号查询，近1个月在非银机构-持牌网络小贷机构申请机构数
+private String m1IdNbankNsloanOrgnum            ;
+
+//按身份证号查询，近1个月在非银机构-持牌汽车金融机构申请机构数
+private String m1IdNbankAutofinOrgnum           ;
+
+//按身份证号查询，近1个月在非银机构-持牌小贷机构申请机构数
+private String m1IdNbankSloanOrgnum             ;
+
+//按身份证号查询，近1个月在非银机构-持牌消费金融机构申请机构数
+private String m1IdNbankConsOrgnum              ;
+
+//按身份证号查询，近1个月在非银机构-持牌融资租赁机构申请机构数
+private String m1IdNbankFinleaOrgnum            ;
+
+//按身份证号查询，近1个月在非银机构-其他申请机构数
+private String m1IdNbankElseOrgnum              ;
+
+//按身份证号查询，近1个月在非银机构周末申请次数
+private String m1IdNbankWeekAllnum              ;
+
+//按身份证号查询，近1个月在非银机构周末申请机构数
+private String m1IdNbankWeekOrgnum              ;
+
+//按身份证号查询，近1个月在非银机构夜间申请次数
+private String m1IdNbankNightAllnum             ;
+
+//按身份证号查询，近1个月在非银机构夜间申请机构数
+private String m1IdNbankNightOrgnum             ;
+
+//按手机号查询，近1个月申请线上小额现金贷的次数
+private String m1CellPdlAllnum                  ;
+
+//按手机号查询，近1个月申请线上小额现金贷的机构数
+private String m1CellPdlOrgnum                  ;
+
+//按手机号查询，近1个月申请线上现金分期的次数
+private String m1CellCaonAllnum                 ;
+
+//按手机号查询，近1个月申请线上现金分期的机构数
+private String m1CellCaonOrgnum                 ;
+
+//按手机号查询，近1个月申请信用卡（类信用卡）的次数
+private String m1CellRelAllnum                  ;
+
+//按手机号查询，近1个月申请信用卡（类信用卡）的机构数
+private String m1CellRelOrgnum                  ;
+
+//按手机号查询，近1个月申请线下现金分期的次数
+private String m1CellCaoffAllnum                ;
+
+//按手机号查询，近1个月申请线下现金分期的机构数
+private String m1CellCaoffOrgnum                ;
+
+//按手机号查询，近1个月申请线下消费分期的次数
+private String m1CellCooffAllnum                ;
+
+//按手机号查询，近1个月申请线下消费分期的机构数
+private String m1CellCooffOrgnum                ;
+
+//按手机号查询，近1个月申请汽车金融的次数
+private String m1CellAfAllnum                   ;
+
+//按手机号查询，近1个月申请汽车金融的机构数
+private String m1CellAfOrgnum                   ;
+
+//按手机号查询，近1个月申请线上消费分期的次数
+private String m1CellCoonAllnum                 ;
+
+//按手机号查询，近1个月申请线上消费分期的机构数
+private String m1CellCoonOrgnum                 ;
+
+//按手机号查询，近1个月申请其他的次数
+private String m1CellOthAllnum                  ;
+
+//按手机号查询，近1个月申请其他的机构数
+private String m1CellOthOrgnum                  ;
+
+//按手机号查询，近1个月在本机构(本机构为银行)的申请次数
+private String m1CellBankSelfnum                ;
+
+//按手机号查询，近1个月在银行机构申请次数
+private String m1CellBankAllnum                 ;
+
+//按手机号查询，近1个月在银行机构-传统银行申请次数
+private String m1CellBankTraAllnum              ;
+
+//按手机号查询，近1个月在银行机构-网络零售银行申请次数
+private String m1CellBankRetAllnum              ;
+
+//按手机号查询，近1个月在银行机构申请机构数
+private String m1CellBankOrgnum                 ;
+
+//按手机号查询，近1个月在银行机构-传统银行申请机构数
+private String m1CellBankTraOrgnum              ;
+
+//按手机号查询，近1个月在银行机构-网络零售银行申请机构数
+private String m1CellBankRetOrgnum              ;
+
+//按手机号查询，近1个月在银行机构周末申请次数
+private String m1CellBankWeekAllnum             ;
+
+//按手机号查询，近1个月在银行机构周末申请机构数
+private String m1CellBankWeekOrgnum             ;
+
+//按手机号查询，近1个月在银行机构夜间申请次数
+private String m1CellBankNightAllnum            ;
+
+//按手机号查询，近1个月在银行机构夜间申请机构数
+private String m1CellBankNightOrgnum            ;
+
+//按手机号查询，近1个月在本机构(本机构为非银)申请次数
+private String m1CellNbankSelfnum               ;
+
+//按手机号查询，近1个月在非银机构申请次数
+private String m1CellNbankAllnum                ;
+
+//按手机号查询，近1个月在非银机构-p2p机构申请次数
+private String m1CellNbankP2pAllnum             ;
+
+//按手机号查询，近1个月在非银机构-小贷机构申请次数
+private String m1CellNbankMcAllnum              ;
+
+//按手机号查询，近1个月在非银机构-现金类分期机构申请次数
+private String m1CellNbankCaAllnum              ;
+
+//按手机号查询，近1个月在非银机构-消费类分期机构申请次数
+private String m1CellNbankCfAllnum              ;
+
+//按手机号查询，近1个月在非银机构-代偿类分期机构申请次数
+private String m1CellNbankComAllnum             ;
+
+//按手机号查询，近1个月在非银机构-其他申请次数
+private String m1CellNbankOthAllnum             ;
+
+//按手机号查询，近1个月在非银机构-持牌网络小贷机构申请次数
+private String m1CellNbankNsloanAllnum          ;
+
+//按手机号查询，近1个月在非银机构-持牌汽车金融机构申请次数
+private String m1CellNbankAutofinAllnum         ;
+
+//按手机号查询，近1个月在非银机构-持牌小贷机构申请次数
+private String m1CellNbankSloanAllnum           ;
+
+//按手机号查询，近1个月在非银机构-持牌消费金融机构申请次数
+private String m1CellNbankConsAllnum            ;
+
+//按手机号查询，近1个月在非银机构-持牌融资租赁机构申请次数
+private String m1CellNbankFinleaAllnum          ;
+
+//按手机号查询，近1个月在非银机构-其他申请次数
+private String m1CellNbankElseAllnum            ;
+
+//按手机号查询，近1个月在非银机构申请机构数
+private String m1CellNbankOrgnum                ;
+
+//按手机号查询，近1个月在非银机构-p2p申请机构数
+private String m1CellNbankP2pOrgnum             ;
+
+//按手机号查询，近1个月在非银机构-小贷申请机构数
+private String m1CellNbankMcOrgnum              ;
+
+//按手机号查询，近1个月在非银机构-现金类分期申请机构数
+private String m1CellNbankCaOrgnum              ;
+
+//按手机号查询，近1个月在非银机构-消费类分期申请机构数
+private String m1CellNbankCfOrgnum              ;
+
+//按手机号查询，近1个月在非银机构-代偿类分期申请机构数
+private String m1CellNbankComOrgnum             ;
+
+//按手机号查询，近1个月在非银机构-其他申请机构数
+private String m1CellNbankOthOrgnum             ;
+
+//按手机号查询，近1个月在非银机构-持牌网络小贷机构申请机构数
+private String m1CellNbankNsloanOrgnum          ;
+
+//按手机号查询，近1个月在非银机构-持牌汽车金融机构申请机构数
+private String m1CellNbankAutofinOrgnum         ;
+
+//按手机号查询，近1个月在非银机构-持牌小贷机构申请机构数
+private String m1CellNbankSloanOrgnum           ;
+
+//按手机号查询，近1个月在非银机构-持牌消费金融机构申请机构数
+private String m1CellNbankConsOrgnum            ;
+
+//按手机号查询，近1个月在非银机构-持牌融资租赁机构申请机构数
+private String m1CellNbankFinleaOrgnum          ;
+
+//按手机号查询，近1个月在非银机构-其他申请机构数
+private String m1CellNbankElseOrgnum            ;
+
+//按手机号查询，近1个月在非银机构周末申请次数
+private String m1CellNbankWeekAllnum            ;
+
+//按手机号查询，近1个月在非银机构周末申请机构数
+private String m1CellNbankWeekOrgnum            ;
+
+//按手机号查询，近1个月在非银机构夜间申请次数
+private String m1CellNbankNightAllnum           ;
+
+//按手机号查询，近1个月在非银机构夜间申请机构数
+private String m1CellNbankNightOrgnum           ;
+
+//按身份证号查询，近3个月申请最大间隔天数
+private String m3IdMaxInteday                   ;
+
+//按身份证号查询，近3个月申请最小间隔天数
+private String m3IdMinInteday                   ;
+
+//按身份证号查询，近3个月有申请记录月份数
+private String m3IdTotMons                      ;
+
+//按身份证号查询，近3个月平均每月申请次数(有申请月份平均)
+private String m3IdAvgMonnum                    ;
+
+//按身份证号查询，近3个月最大月申请次数
+private String m3IdMaxMonnum                    ;
+
+//按身份证号查询，近3个月最小月申请次数
+private String m3IdMinMonnum                    ;
+
+//按身份证号查询，近3个月申请线上小额现金贷的次数
+private String m3IdPdlAllnum                    ;
+
+//按身份证号查询，近3个月申请线上小额现金贷的机构数
+private String m3IdPdlOrgnum                    ;
+
+//按身份证号查询，近3个月申请线上现金分期的次数
+private String m3IdCaonAllnum                   ;
+
+//按身份证号查询，近3个月申请线上现金分期的机构数
+private String m3IdCaonOrgnum                   ;
+
+//按身份证号查询，近3个月申请信用卡（类信用卡）的次数
+private String m3IdRelAllnum                    ;
+
+//按身份证号查询，近3个月申请信用卡（类信用卡）的机构数
+private String m3IdRelOrgnum                    ;
+
+//按身份证号查询，近3个月申请线下现金分期的次数
+private String m3IdCaoffAllnum                  ;
+
+//按身份证号查询，近3个月申请线下现金分期的机构数
+private String m3IdCaoffOrgnum                  ;
+
+//按身份证号查询，近3个月申请线下消费分期的次数
+private String m3IdCooffAllnum                  ;
+
+//按身份证号查询，近3个月申请线下消费分期的机构数
+private String m3IdCooffOrgnum                  ;
+
+//按身份证号查询，近3个月申请汽车金融的次数
+private String m3IdAfAllnum                     ;
+
+//按身份证号查询，近3个月申请汽车金融的机构数
+private String m3IdAfOrgnum                     ;
+
+//按身份证号查询，近3个月申请线上消费分期的次数
+private String m3IdCoonAllnum                   ;
+
+//按身份证号查询，近3个月申请线上消费分期的机构数
+private String m3IdCoonOrgnum                   ;
+
+//按身份证号查询，近3个月申请其他的次数
+private String m3IdOthAllnum                    ;
+
+//按身份证号查询，近3个月申请其他的机构数
+private String m3IdOthOrgnum                    ;
+
+//按身份证号查询，近3个月在本机构(本机构为银行)的申请次数
+private String m3IdBankSelfnum                  ;
+
+//按身份证号查询，近3个月在银行机构申请次数
+private String m3IdBankAllnum                   ;
+
+//按身份证号查询，近3个月在银行机构-传统银行申请次数
+private String m3IdBankTraAllnum                ;
+
+//按身份证号查询，近3个月在银行机构-网络零售银行申请次数
+private String m3IdBankRetAllnum                ;
+
+//按身份证号查询，近3个月在银行机构申请机构数
+private String m3IdBankOrgnum                   ;
+
+//按身份证号查询，近3个月在银行机构-传统银行申请机构数
+private String m3IdBankTraOrgnum                ;
+
+//按身份证号查询，近3个月在银行机构-网络零售银行申请机构数
+private String m3IdBankRetOrgnum                ;
+
+//按身份证号查询，近3个月在银行机构有申请记录月份数
+private String m3IdBankTotMons                  ;
+
+//按身份证号查询，近3个月在银行机构平均每月申请次数(有申请月份平均)
+private String m3IdBankAvgMonnum                ;
+
+//按身份证号查询，近3个月在银行机构最大月申请次数
+private String m3IdBankMaxMonnum                ;
+
+//按身份证号查询，近3个月在银行机构最小月申请次数
+private String m3IdBankMinMonnum                ;
+
+//按身份证号查询，近3个月在银行机构申请最大间隔天数
+private String m3IdBankMaxInteday               ;
+
+//按身份证号查询，近3个月在银行机构申请最小间隔天数
+private String m3IdBankMinInteday               ;
+
+//按身份证号查询，近3个月在银行机构周末申请次数
+private String m3IdBankWeekAllnum               ;
+
+//按身份证号查询，近3个月在银行机构周末申请机构数
+private String m3IdBankWeekOrgnum               ;
+
+//按身份证号查询，近3个月在银行机构夜间申请次数
+private String m3IdBankNightAllnum              ;
+
+//按身份证号查询，近3个月在银行机构夜间申请机构数
+private String m3IdBankNightOrgnum              ;
+
+//按身份证号查询，近3个月在本机构(本机构为非银)申请次数
+private String m3IdNbankSelfnum                 ;
+
+//按身份证号查询，近3个月在非银机构申请次数
+private String m3IdNbankAllnum                  ;
+
+//按身份证号查询，近3个月在非银机构-p2p机构申请次数
+private String m3IdNbankP2pAllnum               ;
+
+//按身份证号查询，近3个月在非银机构-小贷机构申请次数
+private String m3IdNbankMcAllnum                ;
+
+//按身份证号查询，近3个月在非银机构-现金类分期机构申请次数
+private String m3IdNbankCaAllnum                ;
+
+//按身份证号查询，近3个月在非银机构-消费类分期机构申请次数
+private String m3IdNbankCfAllnum                ;
+
+//按身份证号查询，近3个月在非银机构-代偿类分期机构申请次数
+private String m3IdNbankComAllnum               ;
+
+//按身份证号查询，近3个月在非银机构-其他申请次数
+private String m3IdNbankOthAllnum               ;
+
+//按身份证号查询，近3个月在非银机构-持牌网络小贷机构申请次数
+private String m3IdNbankNsloanAllnum            ;
+
+//按身份证号查询，近3个月在非银机构-持牌汽车金融机构申请次数
+private String m3IdNbankAutofinAllnum           ;
+
+//按身份证号查询，近3个月在非银机构-持牌小贷机构申请次数
+private String m3IdNbankSloanAllnum             ;
+
+//按身份证号查询，近3个月在非银机构-持牌消费金融机构申请次数
+private String m3IdNbankConsAllnum              ;
+
+//按身份证号查询，近3个月在非银机构-持牌融资租赁机构申请次数
+private String m3IdNbankFinleaAllnum            ;
+
+//按身份证号查询，近3个月在非银机构-其他申请次数
+private String m3IdNbankElseAllnum              ;
+
+//按身份证号查询，近3个月在非银机构申请机构数
+private String m3IdNbankOrgnum                  ;
+
+//按身份证号查询，近3个月在非银机构-p2p申请机构数
+private String m3IdNbankP2pOrgnum               ;
+
+//按身份证号查询，近3个月在非银机构-小贷申请机构数
+private String m3IdNbankMcOrgnum                ;
+
+//按身份证号查询，近3个月在非银机构-现金类分期申请机构数
+private String m3IdNbankCaOrgnum                ;
+
+//按身份证号查询，近3个月在非银机构-消费类分期申请机构数
+private String m3IdNbankCfOrgnum                ;
+
+//按身份证号查询，近3个月在非银机构-代偿类分期申请机构数
+private String m3IdNbankComOrgnum               ;
+
+//按身份证号查询，近3个月在非银机构-其他申请机构数
+private String m3IdNbankOthOrgnum               ;
+
+//按身份证号查询，近3个月在非银机构-持牌网络小贷机构申请机构数
+private String m3IdNbankNsloanOrgnum            ;
+
+//按身份证号查询，近3个月在非银机构-持牌汽车金融机构申请机构数
+private String m3IdNbankAutofinOrgnum           ;
+
+//按身份证号查询，近3个月在非银机构-持牌小贷机构申请机构数
+private String m3IdNbankSloanOrgnum             ;
+
+//按身份证号查询，近3个月在非银机构-持牌消费金融机构申请机构数
+private String m3IdNbankConsOrgnum              ;
+
+//按身份证号查询，近3个月在非银机构-持牌融资租赁机构申请机构数
+private String m3IdNbankFinleaOrgnum            ;
+
+//按身份证号查询，近3个月在非银机构-其他申请机构数
+private String m3IdNbankElseOrgnum              ;
+
+//按身份证号查询，近3个月在非银机构有申请记录月份数
+private String m3IdNbankTotMons                 ;
+
+//按身份证号查询，近3个月在非银机构平均每月申请次数(有申请月份平均)
+private String m3IdNbankAvgMonnum               ;
+
+//按身份证号查询，近3个月在非银机构最大月申请次数
+private String m3IdNbankMaxMonnum               ;
+
+//按身份证号查询，近3个月在非银机构最小月申请次数
+private String m3IdNbankMinMonnum               ;
+
+//按身份证号查询，近3个月在非银机构申请最大间隔天数
+private String m3IdNbankMaxInteday              ;
+
+//按身份证号查询，近3个月在非银机构申请最小间隔天数
+private String m3IdNbankMinInteday              ;
+
+//按身份证号查询，近3个月在非银机构周末申请次数
+private String m3IdNbankWeekAllnum              ;
+
+//按身份证号查询，近3个月在非银机构周末申请机构数
+private String m3IdNbankWeekOrgnum              ;
+
+//按身份证号查询，近3个月在非银机构夜间申请次数
+private String m3IdNbankNightAllnum             ;
+
+//按身份证号查询，近3个月在非银机构夜间申请机构数
+private String m3IdNbankNightOrgnum             ;
+
+//按手机号查询，近3个月申请最大间隔天数
+private String m3CellMaxInteday                 ;
+
+//按手机号查询，近3个月申请最小间隔天数
+private String m3CellMinInteday                 ;
+
+//按手机号查询，近3个月有申请记录月份数
+private String m3CellTotMons                    ;
+
+//按手机号查询，近3个月平均每月申请次数(有申请月份平均)
+private String m3CellAvgMonnum                  ;
+
+//按手机号查询，近3个月最大月申请次数
+private String m3CellMaxMonnum                  ;
+
+//按手机号查询，近3个月最小月申请次数
+private String m3CellMinMonnum                  ;
+
+//按手机号查询，近3个月申请线上小额现金贷的次数
+private String m3CellPdlAllnum                  ;
+
+//按手机号查询，近3个月申请线上小额现金贷的机构数
+private String m3CellPdlOrgnum                  ;
+
+//按手机号查询，近3个月申请线上现金分期的次数
+private String m3CellCaonAllnum                 ;
+
+//按手机号查询，近3个月申请线上现金分期的机构数
+private String m3CellCaonOrgnum                 ;
+
+//按手机号查询，近3个月申请信用卡（类信用卡）的次数
+private String m3CellRelAllnum                  ;
+
+//按手机号查询，近3个月申请信用卡（类信用卡）的机构数
+private String m3CellRelOrgnum                  ;
+
+//按手机号查询，近3个月申请线下现金分期的次数
+private String m3CellCaoffAllnum                ;
+
+//按手机号查询，近3个月申请线下现金分期的机构数
+private String m3CellCaoffOrgnum                ;
+
+//按手机号查询，近3个月申请线下消费分期的次数
+private String m3CellCooffAllnum                ;
+
+//按手机号查询，近3个月申请线下消费分期的机构数
+private String m3CellCooffOrgnum                ;
+
+//按手机号查询，近3个月申请汽车金融的次数
+private String m3CellAfAllnum                   ;
+
+//按手机号查询，近3个月申请汽车金融的机构数
+private String m3CellAfOrgnum                   ;
+
+//按手机号查询，近3个月申请线上消费分期的次数
+private String m3CellCoonAllnum                 ;
+
+//按手机号查询，近3个月申请线上消费分期的机构数
+private String m3CellCoonOrgnum                 ;
+
+//按手机号查询，近3个月申请其他的次数
+private String m3CellOthAllnum                  ;
+
+//按手机号查询，近3个月申请其他的机构数
+private String m3CellOthOrgnum                  ;
+
+//按手机号查询，近3个月在本机构(本机构为银行)的申请次数
+private String m3CellBankSelfnum                ;
+
+//按手机号查询，近3个月在银行机构申请次数
+private String m3CellBankAllnum                 ;
+
+//按手机号查询，近3个月在银行机构-传统银行申请次数
+private String m3CellBankTraAllnum              ;
+
+//按手机号查询，近3个月在银行机构-网络零售银行申请次数
+private String m3CellBankRetAllnum              ;
+
+//按手机号查询，近3个月在银行机构申请机构数
+private String m3CellBankOrgnum                 ;
+
+//按手机号查询，近3个月在银行机构-传统银行申请机构数
+private String m3CellBankTraOrgnum              ;
+
+//按手机号查询，近3个月在银行机构-网络零售银行申请机构数
+private String m3CellBankRetOrgnum              ;
+
+//按手机号查询，近3个月在银行机构有申请记录月份数
+private String m3CellBankTotMons                ;
+
+//按手机号查询，近3个月在银行机构平均每月申请次数(有申请月份平均)
+private String m3CellBankAvgMonnum              ;
+
+//按手机号查询，近3个月在银行机构最大月申请次数
+private String m3CellBankMaxMonnum              ;
+
+//按手机号查询，近3个月在银行机构最小月申请次数
+private String m3CellBankMinMonnum              ;
+
+//按手机号查询，近3个月在银行机构申请最大间隔天数
+private String m3CellBankMaxInteday             ;
+
+//按手机号查询，近3个月在银行机构申请最小间隔天数
+private String m3CellBankMinInteday             ;
+
+//按手机号查询，近3个月在银行机构周末申请次数
+private String m3CellBankWeekAllnum             ;
+
+//按手机号查询，近3个月在银行机构周末申请机构数
+private String m3CellBankWeekOrgnum             ;
+
+//按手机号查询，近3个月在银行机构夜间申请次数
+private String m3CellBankNightAllnum            ;
+
+//按手机号查询，近3个月在银行机构夜间申请机构数
+private String m3CellBankNightOrgnum            ;
+
+//按手机号查询，近3个月在本机构(本机构为非银)申请次数
+private String m3CellNbankSelfnum               ;
+
+//按手机号查询，近3个月在非银机构申请次数
+private String m3CellNbankAllnum                ;
+
+//按手机号查询，近3个月在非银机构-p2p机构申请次数
+private String m3CellNbankP2pAllnum             ;
+
+//按手机号查询，近3个月在非银机构-小贷机构申请次数
+private String m3CellNbankMcAllnum              ;
+
+//按手机号查询，近3个月在非银机构-现金类分期机构申请次数
+private String m3CellNbankCaAllnum              ;
+
+//按手机号查询，近3个月在非银机构-消费类分期机构申请次数
+private String m3CellNbankCfAllnum              ;
+
+//按手机号查询，近3个月在非银机构-代偿类分期机构申请次数
+private String m3CellNbankComAllnum             ;
+
+//按手机号查询，近3个月在非银机构-其他申请次数
+private String m3CellNbankOthAllnum             ;
+
+//按手机号查询，近3个月在非银机构-持牌网络小贷机构申请次数
+private String m3CellNbankNsloanAllnum          ;
+
+//按手机号查询，近3个月在非银机构-持牌汽车金融机构申请次数
+private String m3CellNbankAutofinAllnum         ;
+
+//按手机号查询，近3个月在非银机构-持牌小贷机构申请次数
+private String m3CellNbankSloanAllnum           ;
+
+//按手机号查询，近3个月在非银机构-持牌消费金融机构申请次数
+private String m3CellNbankConsAllnum            ;
+
+//按手机号查询，近3个月在非银机构-持牌融资租赁机构申请次数
+private String m3CellNbankFinleaAllnum          ;
+
+//按手机号查询，近3个月在非银机构-其他申请次数
+private String m3CellNbankElseAllnum            ;
+
+//按手机号查询，近3个月在非银机构申请机构数
+private String m3CellNbankOrgnum                ;
+
+//按手机号查询，近3个月在非银机构-p2p申请机构数
+private String m3CellNbankP2pOrgnum             ;
+
+//按手机号查询，近3个月在非银机构-小贷申请机构数
+private String m3CellNbankMcOrgnum              ;
+
+//按手机号查询，近3个月在非银机构-现金类分期申请机构数
+private String m3CellNbankCaOrgnum              ;
+
+//按手机号查询，近3个月在非银机构-消费类分期申请机构数
+private String m3CellNbankCfOrgnum              ;
+
+//按手机号查询，近3个月在非银机构-代偿类分期申请机构数
+private String m3CellNbankComOrgnum             ;
+
+//按手机号查询，近3个月在非银机构-其他申请机构数
+private String m3CellNbankOthOrgnum             ;
+
+//按手机号查询，近3个月在非银机构-持牌网络小贷机构申请机构数
+private String m3CellNbankNsloanOrgnum          ;
+
+//按手机号查询，近3个月在非银机构-持牌汽车金融机构申请机构数
+private String m3CellNbankAutofinOrgnum         ;
+
+//按手机号查询，近3个月在非银机构-持牌小贷机构申请机构数
+private String m3CellNbankSloanOrgnum           ;
+
+//按手机号查询，近3个月在非银机构-持牌消费金融机构申请机构数
+private String m3CellNbankConsOrgnum            ;
+
+//按手机号查询，近3个月在非银机构-持牌融资租赁机构申请机构数
+private String m3CellNbankFinleaOrgnum          ;
+
+//按手机号查询，近3个月在非银机构-其他申请机构数
+private String m3CellNbankElseOrgnum            ;
+
+//按手机号查询，近3个月在非银机构有申请记录月份数
+private String m3CellNbankTotMons               ;
+
+//按手机号查询，近3个月在非银机构平均每月申请次数(有申请月份平均)
+private String m3CellNbankAvgMonnum             ;
+
+//按手机号查询，近3个月在非银机构最大月申请次数
+private String m3CellNbankMaxMonnum             ;
+
+//按手机号查询，近3个月在非银机构最小月申请次数
+private String m3CellNbankMinMonnum             ;
+
+//按手机号查询，近3个月在非银机构申请最大间隔天数
+private String m3CellNbankMaxInteday            ;
+
+//按手机号查询，近3个月在非银机构申请最小间隔天数
+private String m3CellNbankMinInteday            ;
+
+//按手机号查询，近3个月在非银机构周末申请次数
+private String m3CellNbankWeekAllnum            ;
+
+//按手机号查询，近3个月在非银机构周末申请机构数
+private String m3CellNbankWeekOrgnum            ;
+
+//按手机号查询，近3个月在非银机构夜间申请次数
+private String m3CellNbankNightAllnum           ;
+
+//按手机号查询，近3个月在非银机构夜间申请机构数
+private String m3CellNbankNightOrgnum           ;
+
+//按身份证号查询，近6个月申请最大间隔天数
+private String m6IdMaxInteday                   ;
+
+//按身份证号查询，近6个月申请最小间隔天数
+private String m6IdMinInteday                   ;
+
+//按身份证号查询，近6个月有申请记录月份数
+private String m6IdTotMons                      ;
+
+//按身份证号查询，近6个月平均每月申请次数(有申请月份平均)
+private String m6IdAvgMonnum                    ;
+
+//按身份证号查询，近6个月最大月申请次数
+private String m6IdMaxMonnum                    ;
+
+//按身份证号查询，近6个月最小月申请次数
+private String m6IdMinMonnum                    ;
+
+//按身份证号查询，近6个月申请线上小额现金贷的次数
+private String m6IdPdlAllnum                    ;
+
+//按身份证号查询，近6个月申请线上小额现金贷的机构数
+private String m6IdPdlOrgnum                    ;
+
+//按身份证号查询，近6个月申请线上现金分期的次数
+private String m6IdCaonAllnum                   ;
+
+//按身份证号查询，近6个月申请线上现金分期的机构数
+private String m6IdCaonOrgnum                   ;
+
+//按身份证号查询，近6个月申请信用卡（类信用卡）的次数
+private String m6IdRelAllnum                    ;
+
+//按身份证号查询，近6个月申请信用卡（类信用卡）的机构数
+private String m6IdRelOrgnum                    ;
+
+//按身份证号查询，近6个月申请线下现金分期的次数
+private String m6IdCaoffAllnum                  ;
+
+//按身份证号查询，近6个月申请线下现金分期的机构数
+private String m6IdCaoffOrgnum                  ;
+
+//按身份证号查询，近6个月申请线下消费分期的次数
+private String m6IdCooffAllnum                  ;
+
+//按身份证号查询，近6个月申请线下消费分期的机构数
+private String m6IdCooffOrgnum                  ;
+
+//按身份证号查询，近6个月申请汽车金融的次数
+private String m6IdAfAllnum                     ;
+
+//按身份证号查询，近6个月申请汽车金融的机构数
+private String m6IdAfOrgnum                     ;
+
+//按身份证号查询，近6个月申请线上消费分期的次数
+private String m6IdCoonAllnum                   ;
+
+//按身份证号查询，近6个月申请线上消费分期的机构数
+private String m6IdCoonOrgnum                   ;
+
+//按身份证号查询，近6个月申请其他的次数
+private String m6IdOthAllnum                    ;
+
+//按身份证号查询，近6个月申请其他的机构数
+private String m6IdOthOrgnum                    ;
+
+//按身份证号查询，近6个月在本机构(本机构为银行)的申请次数
+private String m6IdBankSelfnum                  ;
+
+//按身份证号查询，近6个月在银行机构申请次数
+private String m6IdBankAllnum                   ;
+
+//按身份证号查询，近6个月在银行机构-传统银行申请次数
+private String m6IdBankTraAllnum                ;
+
+//按身份证号查询，近6个月在银行机构-网络零售银行申请次数
+private String m6IdBankRetAllnum                ;
+
+//按身份证号查询，近6个月在银行机构申请机构数
+private String m6IdBankOrgnum                   ;
+
+//按身份证号查询，近6个月在银行机构-传统银行申请机构数
+private String m6IdBankTraOrgnum                ;
+
+//按身份证号查询，近6个月在银行机构-网络零售银行申请机构数
+private String m6IdBankRetOrgnum                ;
+
+//按身份证号查询，近6个月在银行机构有申请记录月份数
+private String m6IdBankTotMons                  ;
+
+//按身份证号查询，近6个月在银行机构平均每月申请次数(有申请月份平均)
+private String m6IdBankAvgMonnum                ;
+
+//按身份证号查询，近6个月在银行机构最大月申请次数
+private String m6IdBankMaxMonnum                ;
+
+//按身份证号查询，近6个月在银行机构最小月申请次数
+private String m6IdBankMinMonnum                ;
+
+//按身份证号查询，近6个月在银行机构申请最大间隔天数
+private String m6IdBankMaxInteday               ;
+
+//按身份证号查询，近6个月在银行机构申请最小间隔天数
+private String m6IdBankMinInteday               ;
+
+//按身份证号查询，近6个月在银行机构周末申请次数
+private String m6IdBankWeekAllnum               ;
+
+//按身份证号查询，近6个月在银行机构周末申请机构数
+private String m6IdBankWeekOrgnum               ;
+
+//按身份证号查询，近6个月在银行机构夜间申请次数
+private String m6IdBankNightAllnum              ;
+
+//按身份证号查询，近6个月在银行机构夜间申请机构数
+private String m6IdBankNightOrgnum              ;
+
+//按身份证号查询，近6个月在本机构(本机构为非银)申请次数
+private String m6IdNbankSelfnum                 ;
+
+//按身份证号查询，近6个月在非银机构申请次数
+private String m6IdNbankAllnum                  ;
+
+//按身份证号查询，近6个月在非银机构-p2p机构申请次数
+private String m6IdNbankP2pAllnum               ;
+
+//按身份证号查询，近6个月在非银机构-小贷机构申请次数
+private String m6IdNbankMcAllnum                ;
+
+//按身份证号查询，近6个月在非银机构-现金类分期机构申请次数
+private String m6IdNbankCaAllnum                ;
+
+//按身份证号查询，近6个月在非银机构-消费类分期机构申请次数
+private String m6IdNbankCfAllnum                ;
+
+//按身份证号查询，近6个月在非银机构-代偿类分期机构申请次数
+private String m6IdNbankComAllnum               ;
+
+//按身份证号查询，近6个月在非银机构-其他申请次数
+private String m6IdNbankOthAllnum               ;
+
+//按身份证号查询，近6个月在非银机构-持牌网络小贷机构申请次数
+private String m6IdNbankNsloanAllnum            ;
+
+//按身份证号查询，近6个月在非银机构-持牌汽车金融机构申请次数
+private String m6IdNbankAutofinAllnum           ;
+
+//按身份证号查询，近6个月在非银机构-持牌小贷机构申请次数
+private String m6IdNbankSloanAllnum             ;
+
+//按身份证号查询，近6个月在非银机构-持牌消费金融机构申请次数
+private String m6IdNbankConsAllnum              ;
+
+//按身份证号查询，近6个月在非银机构-持牌融资租赁机构申请次数
+private String m6IdNbankFinleaAllnum            ;
+
+//按身份证号查询，近6个月在非银机构-其他申请次数
+private String m6IdNbankElseAllnum              ;
+
+//按身份证号查询，近6个月在非银机构申请机构数
+private String m6IdNbankOrgnum                  ;
+
+//按身份证号查询，近6个月在非银机构-p2p申请机构数
+private String m6IdNbankP2pOrgnum               ;
+
+//按身份证号查询，近6个月在非银机构-小贷申请机构数
+private String m6IdNbankMcOrgnum                ;
+
+//按身份证号查询，近6个月在非银机构-现金类分期申请机构数
+private String m6IdNbankCaOrgnum                ;
+
+//按身份证号查询，近6个月在非银机构-消费类分期申请机构数
+private String m6IdNbankCfOrgnum                ;
+
+//按身份证号查询，近6个月在非银机构-代偿类分期申请机构数
+private String m6IdNbankComOrgnum               ;
+
+//按身份证号查询，近6个月在非银机构-其他申请机构数
+private String m6IdNbankOthOrgnum               ;
+
+//按身份证号查询，近6个月在非银机构-持牌网络小贷机构申请机构数
+private String m6IdNbankNsloanOrgnum            ;
+
+//按身份证号查询，近6个月在非银机构-持牌汽车金融机构申请机构数
+private String m6IdNbankAutofinOrgnum           ;
+
+//按身份证号查询，近6个月在非银机构-持牌小贷机构申请机构数
+private String m6IdNbankSloanOrgnum             ;
+
+//按身份证号查询，近6个月在非银机构-持牌消费金融机构申请机构数
+private String m6IdNbankConsOrgnum              ;
+
+//按身份证号查询，近6个月在非银机构-持牌融资租赁机构申请机构数
+private String m6IdNbankFinleaOrgnum            ;
+
+//按身份证号查询，近6个月在非银机构-其他申请机构数
+private String m6IdNbankElseOrgnum              ;
+
+//按身份证号查询，近6个月在非银机构有申请记录月份数
+private String m6IdNbankTotMons                 ;
+
+//按身份证号查询，近6个月在非银机构平均每月申请次数(有申请月份平均)
+private String m6IdNbankAvgMonnum               ;
+
+//按身份证号查询，近6个月在非银机构最大月申请次数
+private String m6IdNbankMaxMonnum               ;
+
+//按身份证号查询，近6个月在非银机构最小月申请次数
+private String m6IdNbankMinMonnum               ;
+
+//按身份证号查询，近6个月在非银机构申请最大间隔天数
+private String m6IdNbankMaxInteday              ;
+
+//按身份证号查询，近6个月在非银机构申请最小间隔天数
+private String m6IdNbankMinInteday              ;
+
+//按身份证号查询，近6个月在非银机构周末申请次数
+private String m6IdNbankWeekAllnum              ;
+
+//按身份证号查询，近6个月在非银机构周末申请机构数
+private String m6IdNbankWeekOrgnum              ;
+
+//按身份证号查询，近6个月在非银机构夜间申请次数
+private String m6IdNbankNightAllnum             ;
+
+//按身份证号查询，近6个月在非银机构夜间申请机构数
+private String m6IdNbankNightOrgnum             ;
+
+//按手机号查询，近6个月申请最大间隔天数
+private String m6CellMaxInteday                 ;
+
+//按手机号查询，近6个月申请最小间隔天数
+private String m6CellMinInteday                 ;
+
+//按手机号查询，近6个月有申请记录月份数
+private String m6CellTotMons                    ;
+
+//按手机号查询，近6个月平均每月申请次数(有申请月份平均)
+private String m6CellAvgMonnum                  ;
+
+//按手机号查询，近6个月最大月申请次数
+private String m6CellMaxMonnum                  ;
+
+//按手机号查询，近6个月最小月申请次数
+private String m6CellMinMonnum                  ;
+
+//按手机号查询，近6个月申请线上小额现金贷的次数
+private String m6CellPdlAllnum                  ;
+
+//按手机号查询，近6个月申请线上小额现金贷的机构数
+private String m6CellPdlOrgnum                  ;
+
+//按手机号查询，近6个月申请线上现金分期的次数
+private String m6CellCaonAllnum                 ;
+
+//按手机号查询，近6个月申请线上现金分期的机构数
+private String m6CellCaonOrgnum                 ;
+
+//按手机号查询，近6个月申请信用卡（类信用卡）的次数
+private String m6CellRelAllnum                  ;
+
+//按手机号查询，近6个月申请信用卡（类信用卡）的机构数
+private String m6CellRelOrgnum                  ;
+
+//按手机号查询，近6个月申请线下现金分期的次数
+private String m6CellCaoffAllnum                ;
+
+//按手机号查询，近6个月申请线下现金分期的机构数
+private String m6CellCaoffOrgnum                ;
+
+//按手机号查询，近6个月申请线下消费分期的次数
+private String m6CellCooffAllnum                ;
+
+//按手机号查询，近6个月申请线下消费分期的机构数
+private String m6CellCooffOrgnum                ;
+
+//按手机号查询，近6个月申请汽车金融的次数
+private String m6CellAfAllnum                   ;
+
+//按手机号查询，近6个月申请汽车金融的机构数
+private String m6CellAfOrgnum                   ;
+
+//按手机号查询，近6个月申请线上消费分期的次数
+private String m6CellCoonAllnum                 ;
+
+//按手机号查询，近6个月申请线上消费分期的机构数
+private String m6CellCoonOrgnum                 ;
+
+//按手机号查询，近6个月申请其他的次数
+private String m6CellOthAllnum                  ;
+
+//按手机号查询，近6个月申请其他的机构数
+private String m6CellOthOrgnum                  ;
+
+//按手机号查询，近6个月在本机构(本机构为银行)的申请次数
+private String m6CellBankSelfnum                ;
+
+//按手机号查询，近6个月在银行机构申请次数
+private String m6CellBankAllnum                 ;
+
+//按手机号查询，近6个月在银行机构-传统银行申请次数
+private String m6CellBankTraAllnum              ;
+
+//按手机号查询，近6个月在银行机构-网络零售银行申请次数
+private String m6CellBankRetAllnum              ;
+
+//按手机号查询，近6个月在银行机构申请机构数
+private String m6CellBankOrgnum                 ;
+
+//按手机号查询，近6个月在银行机构-传统银行申请机构数
+private String m6CellBankTraOrgnum              ;
+
+//按手机号查询，近6个月在银行机构-网络零售银行申请机构数
+private String m6CellBankRetOrgnum              ;
+
+//按手机号查询，近6个月在银行机构有申请记录月份数
+private String m6CellBankTotMons                ;
+
+//按手机号查询，近6个月在银行机构平均每月申请次数(有申请月份平均)
+private String m6CellBankAvgMonnum              ;
+
+//按手机号查询，近6个月在银行机构最大月申请次数
+private String m6CellBankMaxMonnum              ;
+
+//按手机号查询，近6个月在银行机构最小月申请次数
+private String m6CellBankMinMonnum              ;
+
+//按手机号查询，近6个月在银行机构申请最大间隔天数
+private String m6CellBankMaxInteday             ;
+
+//按手机号查询，近6个月在银行机构申请最小间隔天数
+private String m6CellBankMinInteday             ;
+
+//按手机号查询，近6个月在银行机构周末申请次数
+private String m6CellBankWeekAllnum             ;
+
+//按手机号查询，近6个月在银行机构周末申请机构数
+private String m6CellBankWeekOrgnum             ;
+
+//按手机号查询，近6个月在银行机构夜间申请次数
+private String m6CellBankNightAllnum            ;
+
+//按手机号查询，近6个月在银行机构夜间申请机构数
+private String m6CellBankNightOrgnum            ;
+
+//按手机号查询，近6个月在本机构(本机构为非银)申请次数
+private String m6CellNbankSelfnum               ;
+
+//按手机号查询，近6个月在非银机构申请次数
+private String m6CellNbankAllnum                ;
+
+//按手机号查询，近6个月在非银机构-p2p机构申请次数
+private String m6CellNbankP2pAllnum             ;
+
+//按手机号查询，近6个月在非银机构-小贷机构申请次数
+private String m6CellNbankMcAllnum              ;
+
+//按手机号查询，近6个月在非银机构-现金类分期机构申请次数
+private String m6CellNbankCaAllnum              ;
+
+//按手机号查询，近6个月在非银机构-消费类分期机构申请次数
+private String m6CellNbankCfAllnum              ;
+
+//按手机号查询，近6个月在非银机构-代偿类分期机构申请次数
+private String m6CellNbankComAllnum             ;
+
+//按手机号查询，近6个月在非银机构-其他申请次数
+private String m6CellNbankOthAllnum             ;
+
+//按手机号查询，近6个月在非银机构-持牌网络小贷机构申请次数
+private String m6CellNbankNsloanAllnum          ;
+
+//按手机号查询，近6个月在非银机构-持牌汽车金融机构申请次数
+private String m6CellNbankAutofinAllnum         ;
+
+//按手机号查询，近6个月在非银机构-持牌小贷机构申请次数
+private String m6CellNbankSloanAllnum           ;
+
+//按手机号查询，近6个月在非银机构-持牌消费金融机构申请次数
+private String m6CellNbankConsAllnum            ;
+
+//按手机号查询，近6个月在非银机构-持牌融资租赁机构申请次数
+private String m6CellNbankFinleaAllnum          ;
+
+//按手机号查询，近6个月在非银机构-其他申请次数
+private String m6CellNbankElseAllnum            ;
+
+//按手机号查询，近6个月在非银机构申请机构数
+private String m6CellNbankOrgnum                ;
+
+//按手机号查询，近6个月在非银机构-p2p申请机构数
+private String m6CellNbankP2pOrgnum             ;
+
+//按手机号查询，近6个月在非银机构-小贷申请机构数
+private String m6CellNbankMcOrgnum              ;
+
+//按手机号查询，近6个月在非银机构-现金类分期申请机构数
+private String m6CellNbankCaOrgnum              ;
+
+//按手机号查询，近6个月在非银机构-消费类分期申请机构数
+private String m6CellNbankCfOrgnum              ;
+
+//按手机号查询，近6个月在非银机构-代偿类分期申请机构数
+private String m6CellNbankComOrgnum             ;
+
+//按手机号查询，近6个月在非银机构-其他申请机构数
+private String m6CellNbankOthOrgnum             ;
+
+//按手机号查询，近6个月在非银机构-持牌网络小贷机构申请机构数
+private String m6CellNbankNsloanOrgnum          ;
+
+//按手机号查询，近6个月在非银机构-持牌汽车金融机构申请机构数
+private String m6CellNbankAutofinOrgnum         ;
+
+//按手机号查询，近6个月在非银机构-持牌小贷机构申请机构数
+private String m6CellNbankSloanOrgnum           ;
+
+//按手机号查询，近6个月在非银机构-持牌消费金融机构申请机构数
+private String m6CellNbankConsOrgnum            ;
+
+//按手机号查询，近6个月在非银机构-持牌融资租赁机构申请机构数
+private String m6CellNbankFinleaOrgnum          ;
+
+//按手机号查询，近6个月在非银机构-其他申请机构数
+private String m6CellNbankElseOrgnum            ;
+
+//按手机号查询，近6个月在非银机构有申请记录月份数
+private String m6CellNbankTotMons               ;
+
+//按手机号查询，近6个月在非银机构平均每月申请次数(有申请月份平均)
+private String m6CellNbankAvgMonnum             ;
+
+//按手机号查询，近6个月在非银机构最大月申请次数
+private String m6CellNbankMaxMonnum             ;
+
+//按手机号查询，近6个月在非银机构最小月申请次数
+private String m6CellNbankMinMonnum             ;
+
+//按手机号查询，近6个月在非银机构申请最大间隔天数
+private String m6CellNbankMaxInteday            ;
+
+//按手机号查询，近6个月在非银机构申请最小间隔天数
+private String m6CellNbankMinInteday            ;
+
+//按手机号查询，近6个月在非银机构周末申请次数
+private String m6CellNbankWeekAllnum            ;
+
+//按手机号查询，近6个月在非银机构周末申请机构数
+private String m6CellNbankWeekOrgnum            ;
+
+//按手机号查询，近6个月在非银机构夜间申请次数
+private String m6CellNbankNightAllnum           ;
+
+//按手机号查询，近6个月在非银机构夜间申请机构数
+private String m6CellNbankNightOrgnum           ;
+
+//按身份证号查询，近12个月申请最大间隔天数
+private String m12IdMaxInteday                  ;
+
+//按身份证号查询，近12个月申请最小间隔天数
+private String m12IdMinInteday                  ;
+
+//按身份证号查询，近12个月有申请记录月份数
+private String m12IdTotMons                     ;
+
+//按身份证号查询，近12个月平均每月申请次数(有申请月份平均)
+private String m12IdAvgMonnum                   ;
+
+//按身份证号查询，近12个月最大月申请次数
+private String m12IdMaxMonnum                   ;
+
+//按身份证号查询，近12个月最小月申请次数
+private String m12IdMinMonnum                   ;
+
+//按身份证号查询，近12个月申请线上小额现金贷的次数
+private String m12IdPdlAllnum                   ;
+
+//按身份证号查询，近12个月申请线上小额现金贷的机构数
+private String m12IdPdlOrgnum                   ;
+
+//按身份证号查询，近12个月申请线上现金分期的次数
+private String m12IdCaonAllnum                  ;
+
+//按身份证号查询，近12个月申请线上现金分期的机构数
+private String m12IdCaonOrgnum                  ;
+
+//按身份证号查询，近12个月申请信用卡（类信用卡）的次数
+private String m12IdRelAllnum                   ;
+
+//按身份证号查询，近12个月申请信用卡（类信用卡）的机构数
+private String m12IdRelOrgnum                   ;
+
+//按身份证号查询，近12个月申请线下现金分期的次数
+private String m12IdCaoffAllnum                 ;
+
+//按身份证号查询，近12个月申请线下现金分期的机构数
+private String m12IdCaoffOrgnum                 ;
+
+//按身份证号查询，近12个月申请线下消费分期的次数
+private String m12IdCooffAllnum                 ;
+
+//按身份证号查询，近12个月申请线下消费分期的机构数
+private String m12IdCooffOrgnum                 ;
+
+//按身份证号查询，近12个月申请汽车金融的次数
+private String m12IdAfAllnum                    ;
+
+//按身份证号查询，近12个月申请汽车金融的机构数
+private String m12IdAfOrgnum                    ;
+
+//按身份证号查询，近12个月申请线上消费分期的次数
+private String m12IdCoonAllnum                  ;
+
+//按身份证号查询，近12个月申请线上消费分期的机构数
+private String m12IdCoonOrgnum                  ;
+
+//按身份证号查询，近12个月申请其他的次数
+private String m12IdOthAllnum                   ;
+
+//按身份证号查询，近12个月申请其他的机构数
+private String m12IdOthOrgnum                   ;
+
+//按身份证号查询，近12个月在本机构(本机构为银行)的申请次数
+private String m12IdBankSelfnum                 ;
+
+//按身份证号查询，近12个月在银行机构申请次数
+private String m12IdBankAllnum                  ;
+
+//按身份证号查询，近12个月在银行机构-传统银行申请次数
+private String m12IdBankTraAllnum               ;
+
+//按身份证号查询，近12个月在银行机构-网络零售银行申请次数
+private String m12IdBankRetAllnum               ;
+
+//按身份证号查询，近12个月在银行机构申请机构数
+private String m12IdBankOrgnum                  ;
+
+//按身份证号查询，近12个月在银行机构-传统银行申请机构数
+private String m12IdBankTraOrgnum               ;
+
+//按身份证号查询，近12个月在银行机构-网络零售银行申请机构数
+private String m12IdBankRetOrgnum               ;
+
+//按身份证号查询，近12个月在银行机构有申请记录月份数
+private String m12IdBankTotMons                 ;
+
+//按身份证号查询，近12个月在银行机构平均每月申请次数(有申请月份平均)
+private String m12IdBankAvgMonnum               ;
+
+//按身份证号查询，近12个月在银行机构最大月申请次数
+private String m12IdBankMaxMonnum               ;
+
+//按身份证号查询，近12个月在银行机构最小月申请次数
+private String m12IdBankMinMonnum               ;
+
+//按身份证号查询，近12个月在银行机构申请最大间隔天数
+private String m12IdBankMaxInteday              ;
+
+//按身份证号查询，近12个月在银行机构申请最小间隔天数
+private String m12IdBankMinInteday              ;
+
+//按身份证号查询，近12个月在银行机构周末申请次数
+private String m12IdBankWeekAllnum              ;
+
+//按身份证号查询，近12个月在银行机构周末申请机构数
+private String m12IdBankWeekOrgnum              ;
+
+//按身份证号查询，近12个月在银行机构夜间申请次数
+private String m12IdBankNightAllnum             ;
+
+//按身份证号查询，近12个月在银行机构夜间申请机构数
+private String m12IdBankNightOrgnum             ;
+
+//按身份证号查询，近12个月在本机构(本机构为非银)申请次数
+private String m12IdNbankSelfnum                ;
+
+//按身份证号查询，近12个月在非银机构申请次数
+private String m12IdNbankAllnum                 ;
+
+//按身份证号查询，近12个月在非银机构-p2p机构申请次数
+private String m12IdNbankP2pAllnum              ;
+
+//按身份证号查询，近12个月在非银机构-小贷机构申请次数
+private String m12IdNbankMcAllnum               ;
+
+//按身份证号查询，近12个月在非银机构-现金类分期机构申请次数
+private String m12IdNbankCaAllnum               ;
+
+//按身份证号查询，近12个月在非银机构-消费类分期机构申请次数
+private String m12IdNbankCfAllnum               ;
+
+//按身份证号查询，近12个月在非银机构-代偿类分期机构申请次数
+private String m12IdNbankComAllnum              ;
+
+//按身份证号查询，近12个月在非银机构-其他申请次数
+private String m12IdNbankOthAllnum              ;
+
+//按身份证号查询，近12个月在非银机构-持牌网络小贷机构申请次数
+private String m12IdNbankNsloanAllnum           ;
+
+//按身份证号查询，近12个月在非银机构-持牌汽车金融机构申请次数
+private String m12IdNbankAutofinAllnum          ;
+
+//按身份证号查询，近12个月在非银机构-持牌小贷机构申请次数
+private String m12IdNbankSloanAllnum            ;
+
+//按身份证号查询，近12个月在非银机构-持牌消费金融机构申请次数
+private String m12IdNbankConsAllnum             ;
+
+//按身份证号查询，近12个月在非银机构-持牌融资租赁机构申请次数
+private String m12IdNbankFinleaAllnum           ;
+
+//按身份证号查询，近12个月在非银机构-其他申请次数
+private String m12IdNbankElseAllnum             ;
+
+//按身份证号查询，近12个月在非银机构申请机构数
+private String m12IdNbankOrgnum                 ;
+
+//按身份证号查询，近12个月在非银机构-p2p申请机构数
+private String m12IdNbankP2pOrgnum              ;
+
+//按身份证号查询，近12个月在非银机构-小贷申请机构数
+private String m12IdNbankMcOrgnum               ;
+
+//按身份证号查询，近12个月在非银机构-现金类分期申请机构数
+private String m12IdNbankCaOrgnum               ;
+
+//按身份证号查询，近12个月在非银机构-消费类分期申请机构数
+private String m12IdNbankCfOrgnum               ;
+
+//按身份证号查询，近12个月在非银机构-代偿类分期申请机构数
+private String m12IdNbankComOrgnum              ;
+
+//按身份证号查询，近12个月在非银机构-其他申请机构数
+private String m12IdNbankOthOrgnum              ;
+
+//按身份证号查询，近12个月在非银机构-持牌网络小贷机构申请机构数
+private String m12IdNbankNsloanOrgnum           ;
+
+//按身份证号查询，近12个月在非银机构-持牌汽车金融机构申请机构数
+private String m12IdNbankAutofinOrgnum          ;
+
+//按身份证号查询，近12个月在非银机构-持牌小贷机构申请机构数
+private String m12IdNbankSloanOrgnum            ;
+
+//按身份证号查询，近12个月在非银机构-持牌消费金融机构申请机构数
+private String m12IdNbankConsOrgnum             ;
+
+//按身份证号查询，近12个月在非银机构-持牌融资租赁机构申请机构数
+private String m12IdNbankFinleaOrgnum           ;
+
+//按身份证号查询，近12个月在非银机构-其他申请机构数
+private String m12IdNbankElseOrgnum             ;
+
+//按身份证号查询，近12个月在非银机构有申请记录月份数
+private String m12IdNbankTotMons                ;
+
+//按身份证号查询，近12个月在非银机构平均每月申请次数(有申请月份平均)
+private String m12IdNbankAvgMonnum              ;
+
+//按身份证号查询，近12个月在非银机构最大月申请次数
+private String m12IdNbankMaxMonnum              ;
+
+//按身份证号查询，近12个月在非银机构最小月申请次数
+private String m12IdNbankMinMonnum              ;
+
+//按身份证号查询，近12个月在非银机构申请最大间隔天数
+private String m12IdNbankMaxInteday             ;
+
+//按身份证号查询，近12个月在非银机构申请最小间隔天数
+private String m12IdNbankMinInteday             ;
+
+//按身份证号查询，近12个月在非银机构周末申请次数
+private String m12IdNbankWeekAllnum             ;
+
+//按身份证号查询，近12个月在非银机构周末申请机构数
+private String m12IdNbankWeekOrgnum             ;
+
+//按身份证号查询，近12个月在非银机构夜间申请次数
+private String m12IdNbankNightAllnum            ;
+
+//按身份证号查询，近12个月在非银机构夜间申请机构数
+private String m12IdNbankNightOrgnum            ;
+
+//按手机号查询，近12个月申请最大间隔天数
+private String m12CellMaxInteday                ;
+
+//按手机号查询，近12个月申请最小间隔天数
+private String m12CellMinInteday                ;
+
+//按手机号查询，近12个月有申请记录月份数
+private String m12CellTotMons                   ;
+
+//按手机号查询，近12个月平均每月申请次数(有申请月份平均)
+private String m12CellAvgMonnum                 ;
+
+//按手机号查询，近12个月最大月申请次数
+private String m12CellMaxMonnum                 ;
+
+//按手机号查询，近12个月最小月申请次数
+private String m12CellMinMonnum                 ;
+
+//按手机号查询，近12个月申请线上小额现金贷的次数
+private String m12CellPdlAllnum                 ;
+
+//按手机号查询，近12个月申请线上小额现金贷的机构数
+private String m12CellPdlOrgnum                 ;
+
+//按手机号查询，近12个月申请线上现金分期的次数
+private String m12CellCaonAllnum                ;
+
+//按手机号查询，近12个月申请线上现金分期的机构数
+private String m12CellCaonOrgnum                ;
+
+//按手机号查询，近12个月申请信用卡（类信用卡）的次数
+private String m12CellRelAllnum                 ;
+
+//按手机号查询，近12个月申请信用卡（类信用卡）的机构数
+private String m12CellRelOrgnum                 ;
+
+//按手机号查询，近12个月申请线下现金分期的次数
+private String m12CellCaoffAllnum               ;
+
+//按手机号查询，近12个月申请线下现金分期的机构数
+private String m12CellCaoffOrgnum               ;
+
+//按手机号查询，近12个月申请线下消费分期的次数
+private String m12CellCooffAllnum               ;
+
+//按手机号查询，近12个月申请线下消费分期的机构数
+private String m12CellCooffOrgnum               ;
+
+//按手机号查询，近12个月申请汽车金融的次数
+private String m12CellAfAllnum                  ;
+
+//按手机号查询，近12个月申请汽车金融的机构数
+private String m12CellAfOrgnum                  ;
+
+//按手机号查询，近12个月申请线上消费分期的次数
+private String m12CellCoonAllnum                ;
+
+//按手机号查询，近12个月申请线上消费分期的机构数
+private String m12CellCoonOrgnum                ;
+
+//按手机号查询，近12个月申请其他的次数
+private String m12CellOthAllnum                 ;
+
+//按手机号查询，近12个月申请其他的机构数
+private String m12CellOthOrgnum                 ;
+
+//按手机号查询，近12个月在本机构(本机构为银行)的申请次数
+private String m12CellBankSelfnum               ;
+
+//按手机号查询，近12个月在银行机构申请次数
+private String m12CellBankAllnum                ;
+
+//按手机号查询，近12个月在银行机构-传统银行申请次数
+private String m12CellBankTraAllnum             ;
+
+//按手机号查询，近12个月在银行机构-网络零售银行申请次数
+private String m12CellBankRetAllnum             ;
+
+//按手机号查询，近12个月在银行机构申请机构数
+private String m12CellBankOrgnum                ;
+
+//按手机号查询，近12个月在银行机构-传统银行申请机构数
+private String m12CellBankTraOrgnum             ;
+
+//按手机号查询，近12个月在银行机构-网络零售银行申请机构数
+private String m12CellBankRetOrgnum             ;
+
+//按手机号查询，近12个月在银行机构有申请记录月份数
+private String m12CellBankTotMons               ;
+
+//按手机号查询，近12个月在银行机构平均每月申请次数(有申请月份平均)
+private String m12CellBankAvgMonnum             ;
+
+//按手机号查询，近12个月在银行机构最大月申请次数
+private String m12CellBankMaxMonnum             ;
+
+//按手机号查询，近12个月在银行机构最小月申请次数
+private String m12CellBankMinMonnum             ;
+
+//按手机号查询，近12个月在银行机构申请最大间隔天数
+private String m12CellBankMaxInteday            ;
+
+//按手机号查询，近12个月在银行机构申请最小间隔天数
+private String m12CellBankMinInteday            ;
+
+//按手机号查询，近12个月在银行机构周末申请次数
+private String m12CellBankWeekAllnum            ;
+
+//按手机号查询，近12个月在银行机构周末申请机构数
+private String m12CellBankWeekOrgnum            ;
+
+//按手机号查询，近12个月在银行机构夜间申请次数
+private String m12CellBankNightAllnum           ;
+
+//按手机号查询，近12个月在银行机构夜间申请机构数
+private String m12CellBankNightOrgnum           ;
+
+//按手机号查询，近12个月在本机构(本机构为非银)申请次数
+private String m12CellNbankSelfnum              ;
+
+//按手机号查询，近12个月在非银机构申请次数
+private String m12CellNbankAllnum               ;
+
+//按手机号查询，近12个月在非银机构-p2p机构申请次数
+private String m12CellNbankP2pAllnum            ;
+
+//按手机号查询，近12个月在非银机构-小贷机构申请次数
+private String m12CellNbankMcAllnum             ;
+
+//按手机号查询，近12个月在非银机构-现金类分期机构申请次数
+private String m12CellNbankCaAllnum             ;
+
+//按手机号查询，近12个月在非银机构-消费类分期机构申请次数
+private String m12CellNbankCfAllnum             ;
+
+//按手机号查询，近12个月在非银机构-代偿类分期机构申请次数
+private String m12CellNbankComAllnum            ;
+
+//按手机号查询，近12个月在非银机构-其他申请次数
+private String m12CellNbankOthAllnum            ;
+
+//按手机号查询，近12个月在非银机构-持牌网络小贷机构申请次数
+private String m12CellNbankNsloanAllnum         ;
+
+//按手机号查询，近12个月在非银机构-持牌汽车金融机构申请次数
+private String m12CellNbankAutofinAllnum        ;
+
+//按手机号查询，近12个月在非银机构-持牌小贷机构申请次数
+private String m12CellNbankSloanAllnum          ;
+
+//按手机号查询，近12个月在非银机构-持牌消费金融机构申请次数
+private String m12CellNbankConsAllnum           ;
+
+//按手机号查询，近12个月在非银机构-持牌融资租赁机构申请次数
+private String m12CellNbankFinleaAllnum         ;
+
+//按手机号查询，近12个月在非银机构-其他申请次数
+private String m12CellNbankElseAllnum           ;
+
+//按手机号查询，近12个月在非银机构申请机构数
+private String m12CellNbankOrgnum               ;
+
+//按手机号查询，近12个月在非银机构-p2p申请机构数
+private String m12CellNbankP2pOrgnum            ;
+
+//按手机号查询，近12个月在非银机构-小贷申请机构数
+private String m12CellNbankMcOrgnum             ;
+
+//按手机号查询，近12个月在非银机构-现金类分期申请机构数
+private String m12CellNbankCaOrgnum             ;
+
+//按手机号查询，近12个月在非银机构-消费类分期申请机构数
+private String m12CellNbankCfOrgnum             ;
+
+//按手机号查询，近12个月在非银机构-代偿类分期申请机构数
+private String m12CellNbankComOrgnum            ;
+
+//按手机号查询，近12个月在非银机构-其他申请机构数
+private String m12CellNbankOthOrgnum            ;
+
+//按手机号查询，近12个月在非银机构-持牌网络小贷机构申请机构数
+private String m12CellNbankNsloanOrgnum         ;
+
+//按手机号查询，近12个月在非银机构-持牌汽车金融机构申请机构数
+private String m12CellNbankAutofinOrgnum        ;
+
+//按手机号查询，近12个月在非银机构-持牌小贷机构申请机构数
+private String m12CellNbankSloanOrgnum          ;
+
+//按手机号查询，近12个月在非银机构-持牌消费金融机构申请机构数
+private String m12CellNbankConsOrgnum           ;
+
+//按手机号查询，近12个月在非银机构-持牌融资租赁机构申请机构数
+private String m12CellNbankFinleaOrgnum         ;
+
+//按手机号查询，近12个月在非银机构-其他申请机构数
+private String m12CellNbankElseOrgnum           ;
+
+//按手机号查询，近12个月在非银机构有申请记录月份数
+private String m12CellNbankTotMons              ;
+
+//按手机号查询，近12个月在非银机构平均每月申请次数(有申请月份平均)
+private String m12CellNbankAvgMonnum            ;
+
+//按手机号查询，近12个月在非银机构最大月申请次数
+private String m12CellNbankMaxMonnum            ;
+
+//按手机号查询，近12个月在非银机构最小月申请次数
+private String m12CellNbankMinMonnum            ;
+
+//按手机号查询，近12个月在非银机构申请最大间隔天数
+private String m12CellNbankMaxInteday           ;
+
+//按手机号查询，近12个月在非银机构申请最小间隔天数
+private String m12CellNbankMinInteday           ;
+
+//按手机号查询，近12个月在非银机构周末申请次数
+private String m12CellNbankWeekAllnum           ;
+
+//按手机号查询，近12个月在非银机构周末申请机构数
+private String m12CellNbankWeekOrgnum           ;
+
+//按手机号查询，近12个月在非银机构夜间申请次数
+private String m12CellNbankNightAllnum          ;
+
+//按手机号查询，近12个月在非银机构夜间申请机构数
+private String m12CellNbankNightOrgnum          ;
+
+//按身份证号查询，距最早在银行机构申请的间隔天数
+private String fstIdBankInteday                 ;
+
+//按身份证号查询，距最早在非银行机构申请的间隔天数
+private String fstIdNbankInteday                ;
+
+//按手机号查询，距最早在银行机构申请的间隔天数
+private String fstCellBankInteday               ;
+
+//按手机号查询，距最早在非银机构申请的间隔天数
+private String fstCellNbankInteday              ;
+
+//按身份证号查询，距最近在银行机构申请的间隔天数
+private String lstIdBankInteday                 ;
+
+//按身份证号查询，最近开始在银行机构连续申请的次数
+private String lstIdBankConsnum                 ;
+
+//按身份证号查询，最近开始在银行机构连续申请的持续天数
+private String lstIdBankCsinteday               ;
+
+//按身份证号查询，距最近在非银行机构申请的间隔天数
+private String lstIdNbankInteday                ;
+
+//按身份证号查询，最近开始在非银行机构连续申请的次数
+private String lstIdNbankConsnum                ;
+
+//按身份证号查询，最近开始在非银机构连续申请的持续天数
+private String lstIdNbankCsinteday              ;
+
+//按手机号查询，距最近在银行机构申请的间隔天数
+private String lstCellBankInteday               ;
+
+//按手机号查询，最近开始在银行机构连续申请的次数
+private String lstCellBankConsnum               ;
+
+//按手机号查询，最近开始在银行机构连续申请的持续天数
+private String lstCellBankCsinteday             ;
+
+//按手机号查询，距最近在非银机构申请的间隔天数
+private String lstCellNbankInteday              ;
+
+//按手机号查询，最近开始在非银机构连续申请的次数
+private String lstCellNbankConsnum              ;
+
+//按手机号查询，最近开始在非银机构连续申请的持续天数
+private String lstCellNbankCsinteday            ;
+

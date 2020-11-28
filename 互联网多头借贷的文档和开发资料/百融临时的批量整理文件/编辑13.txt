@@ -1,0 +1,12 @@
+comment on column BAIRONG_ALS_LST.lst_id_bank_inteday          is '按身份证号查询，距最近在银行机构申请的间隔天数      ';
+comment on column BAIRONG_ALS_LST.lst_id_bank_consnum          is '按身份证号查询，最近开始在银行机构连续申请的次数    ';
+comment on column BAIRONG_ALS_LST.lst_id_bank_csinteday        is '按身份证号查询，最近开始在银行机构连续申请的持续天数';
+comment on column BAIRONG_ALS_LST.lst_id_nbank_inteday         is '按身份证号查询，距最近在非银行机构申请的间隔天数    ';
+comment on column BAIRONG_ALS_LST.lst_id_nbank_consnum         is '按身份证号查询，最近开始在非银行机构连续申请的次数  ';
+comment on column BAIRONG_ALS_LST.lst_id_nbank_csinteday       is '按身份证号查询，最近开始在非银机构连续申请的持续天数';
+comment on column BAIRONG_ALS_LST.lst_cell_bank_inteday        is '按手机号查询，距最近在银行机构申请的间隔天数        ';
+comment on column BAIRONG_ALS_LST.lst_cell_bank_consnum        is '按手机号查询，最近开始在银行机构连续申请的次数      ';
+comment on column BAIRONG_ALS_LST.lst_cell_bank_csinteday      is '按手机号查询，最近开始在银行机构连续申请的持续天数  ';
+comment on column BAIRONG_ALS_LST.lst_cell_nbank_inteday       is '按手机号查询，距最近在非银机构申请的间隔天数        ';
+comment on column BAIRONG_ALS_LST.lst_cell_nbank_consnum       is '按手机号查询，最近开始在非银机构连续申请的次数      ';
+comment on column BAIRONG_ALS_LST.lst_cell_nbank_csinteday     is '按手机号查询，最近开始在非银机构连续申请的持续天数  ';

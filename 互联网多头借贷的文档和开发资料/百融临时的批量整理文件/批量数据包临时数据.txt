@@ -1,0 +1,50 @@
+-- Create table
+create table BAIRONG_ALS_TRN_BATCH_DETAIL
+(
+  UUID          CHAR(32) not null,
+  CRT_TIME      TIMESTAMP(6),
+  CRT_USER      VARCHAR2(32),
+  BATCH_FILE_ID CHAR(32),
+  TRN_ID        CHAR(32),
+  CERT_TYPE     VARCHAR2(2),
+  CERT_NO       VARCHAR2(32),
+  NAME          VARCHAR2(64),
+  MOBILE        VARCHAR2(16),
+  QUERY_STATUS  CHAR(1),
+  QUERY_TIME    TIMESTAMP(6)
+)
+
+-- Add comments to the table 
+comment on table BAIRONG_ALS_TRN_BATCH_DETAIL
+  is '多头借贷批次明细表';
+-- Add comments to the columns 
+comment on column BAIRONG_ALS_TRN_BATCH_DETAIL.UUID
+  is '业务的一个ID';
+comment on column BAIRONG_ALS_TRN_BATCH_DETAIL.CRT_TIME
+  is '创建的时间';
+comment on column BAIRONG_ALS_TRN_BATCH_DETAIL.CRT_USER
+  is '创建的用户';
+comment on column BAIRONG_ALS_TRN_BATCH_DETAIL.BATCH_FILE_ID
+  is '批次文件编号';
+comment on column BAIRONG_ALS_TRN_BATCH_DETAIL.TRN_ID
+  is '交易编号';
+comment on column BAIRONG_ALS_TRN_BATCH_DETAIL.CERT_TYPE
+  is '证件类型';
+comment on column BAIRONG_ALS_TRN_BATCH_DETAIL.CERT_NO
+  is '证件号码';
+comment on column BAIRONG_ALS_TRN_BATCH_DETAIL.NAME
+  is '姓名';
+comment on column BAIRONG_ALS_TRN_BATCH_DETAIL.MOBILE
+  is '手机号码';
+comment on column BAIRONG_ALS_TRN_BATCH_DETAIL.QUERY_STATUS
+  is '复核状态';
+-- Create/Recreate primary, unique and foreign key constraints 
+alter table BAIRONG_ALS_TRN_BATCH_DETAIL
+  add constraint PK_BAIRONG_ALS_TRN_BATCH_DETAIL primary key (UUID)
+  using index 
+
+alter table BAIRONG_ALS_TRN_BATCH_DETAIL
+  add constraint BAIRONG_ALS_TRN_BATCH_DETAIL_U1 unique (TRN_ID)
+  using index 
+
+

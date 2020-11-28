@@ -1,0 +1,12 @@
+﻿@Aspect
+@Component
+public class WST001500Aspect {
+
+	private final static Logger logger = LoggerFactory.getLogger(WST001500Aspect.class);
+	@Resource
+	private DataSourceQueryConfigService dataSourceQueryConfigService;
+	@Resource
+	private MulBorDataSourceService mulBorDataSourceService;
+
+	@Around("execution(* com.huaxia.plaze.modules.tongdun.webservice.DtjdWebService.invoke(..))")
+	public Object execute(ProceedingJoinPoint point) {

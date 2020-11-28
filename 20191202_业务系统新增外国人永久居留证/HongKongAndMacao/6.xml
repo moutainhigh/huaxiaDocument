@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="UTF-8"?> <ROWS> <ROW no="6">   <INPUT>    <zjhm></zjhm>    <zwxm>池青萍</zwxm>    <csrq>19351006</csrq>    <zjyxqz>20091027</zjyxqz>   </INPUT>   <OUTPUT>    <ITEM>     <errormesage>必录项缺失</errormesage>    </ITEM>    <ITEM>     <errormesagecol>证件号码</errormesagecol>    </ITEM>   </OUTPUT>  </ROW>     </ROWS> 

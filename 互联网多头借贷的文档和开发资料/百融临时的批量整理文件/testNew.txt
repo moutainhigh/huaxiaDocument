@@ -1,0 +1,9 @@
+BaiRongAlsBase    baiRongAlsBase   = new BaiRongAlsBase();
+BaiRongAlsD7      baiRongAlsD7     = new BaiRongAlsD7();  
+BaiRongAlsD15     baiRongAlsD15    = new BaiRongAlsD15();   
+BaiRongAlsM1      baiRongAlsM1     = new BaiRongAlsM1();    
+BaiRongAlsM3      baiRongAlsM3     = new BaiRongAlsM3();   
+BaiRongAlsM6      baiRongAlsM6     = new BaiRongAlsM6();   
+BaiRongAlsM12     baiRongAlsM12    = new BaiRongAlsM12();   
+BaiRongAlsFst     baiRongAlsFst    = new BaiRongAlsFst();  
+BaiRongAlsLst     baiRongAlsLst    = new BaiRongAlsLst();  
